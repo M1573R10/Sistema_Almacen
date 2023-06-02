@@ -86,6 +86,7 @@
             btnSalir.TabIndex = 5;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // btnIngresar
             // 
@@ -95,8 +96,9 @@
             btnIngresar.TabIndex = 6;
             btnIngresar.Text = "Ingresar";
             btnIngresar.UseVisualStyleBackColor = true;
+            btnIngresar.Click += btnIngresar_Click_1;
             // 
-            // Form1
+            // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -108,7 +110,7 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
+            Name = "Login";
             Text = "Login";
             ResumeLayout(false);
             PerformLayout();
