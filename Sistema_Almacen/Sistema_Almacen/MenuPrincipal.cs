@@ -16,5 +16,11 @@ namespace Sistema_Almacen
         {
             InitializeComponent();
         }
+
+        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorProductos productos = new MantenedorProductos();  
+            productos.Show(this);
+        }
     }
 }

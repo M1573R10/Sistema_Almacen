@@ -21,3 +21,26 @@ C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\S
 C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.pdb
 C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.genruntimeconfig.cache
 C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\ref\Sistema_Almacen.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\Sistema_Almacen.exe
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\Sistema_Almacen.deps.json
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\Sistema_Almacen.runtimeconfig.json
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\Sistema_Almacen.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\Sistema_Almacen.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.Login.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.MantenedorProductos.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.MantenedorProveedores.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.MenuPrincipal.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.OrdenCompra.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.RecepcionMercaderia.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.SalidaMercaderia.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.csproj.GenerateResource.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.AssemblyInfo.cs
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\refint\Sistema_Almacen.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.genruntimeconfig.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\ref\Sistema_Almacen.dll
