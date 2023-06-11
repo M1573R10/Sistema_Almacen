@@ -64,6 +64,7 @@
             proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
             proveedoresToolStripMenuItem.Size = new Size(224, 26);
             proveedoresToolStripMenuItem.Text = "Proveedores";
+            proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // MenuPrincipal
             // 

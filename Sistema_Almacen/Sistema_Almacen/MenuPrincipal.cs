@@ -19,8 +19,14 @@ namespace Sistema_Almacen
 
         private void productoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MantenedorProductos productos = new MantenedorProductos();  
+            MantenedorProductos productos = new MantenedorProductos();
             productos.Show(this);
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorProveedores mantenedorProveedores = new MantenedorProveedores();
+            mantenedorProveedores.Show();
         }
     }
 }
