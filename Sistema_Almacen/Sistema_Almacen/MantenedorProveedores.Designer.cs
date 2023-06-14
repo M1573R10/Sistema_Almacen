@@ -52,6 +52,7 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
+            button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -255,7 +256,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(688, 48);
+            button4.Location = new Point(688, 74);
             button4.Name = "button4";
             button4.Size = new Size(94, 29);
             button4.TabIndex = 2;
@@ -264,7 +265,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(688, 104);
+            button5.Location = new Point(688, 109);
             button5.Name = "button5";
             button5.Size = new Size(94, 29);
             button5.TabIndex = 3;
@@ -273,18 +274,28 @@
             // 
             // button6
             // 
-            button6.Location = new Point(688, 163);
+            button6.Location = new Point(688, 144);
             button6.Name = "button6";
             button6.Size = new Size(94, 29);
             button6.TabIndex = 4;
             button6.Text = "Regresar";
             button6.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            button7.Location = new Point(688, 179);
+            button7.Name = "button7";
+            button7.Size = new Size(94, 29);
+            button7.TabIndex = 5;
+            button7.Text = "Inhabilitar";
+            button7.UseVisualStyleBackColor = true;
+            // 
             // MantenedorProveedores
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 465);
+            Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -324,5 +335,6 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        private Button button7;
     }
 }
