@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sistema_Almacen",
+    "\\Sistema_Almacen\\CapaDatos",
+    "\\Sistema_Almacen\\CapaEntidad",
+    "\\Sistema_Almacen\\CapaLogica",
+    "\\Sistema_Almacen\\Sistema_Almacen"
   ],
+  "SelectedNode": "\\Sistema_Almacen\\Sistema_Almacen\\Login.cs",
   "PreviewInSolutionExplorer": false
 }
