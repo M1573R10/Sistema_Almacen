@@ -36,13 +36,15 @@
             proveedoresToolStripMenuItem = new ToolStripMenuItem();
             tipoProductoToolStripMenuItem = new ToolStripMenuItem();
             marcaToolStripMenuItem = new ToolStripMenuItem();
+            comprasToolStripMenuItem = new ToolStripMenuItem();
+            órdenDeCompraToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, mantenedoresToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, mantenedoresToolStripMenuItem, comprasToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 28);
@@ -73,30 +75,44 @@
             // productoToolStripMenuItem
             // 
             productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            productoToolStripMenuItem.Size = new Size(224, 26);
+            productoToolStripMenuItem.Size = new Size(186, 26);
             productoToolStripMenuItem.Text = "Producto";
             productoToolStripMenuItem.Click += productoToolStripMenuItem_Click;
             // 
             // proveedoresToolStripMenuItem
             // 
             proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            proveedoresToolStripMenuItem.Size = new Size(224, 26);
+            proveedoresToolStripMenuItem.Size = new Size(186, 26);
             proveedoresToolStripMenuItem.Text = "Proveedores";
             proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // tipoProductoToolStripMenuItem
             // 
             tipoProductoToolStripMenuItem.Name = "tipoProductoToolStripMenuItem";
-            tipoProductoToolStripMenuItem.Size = new Size(224, 26);
+            tipoProductoToolStripMenuItem.Size = new Size(186, 26);
             tipoProductoToolStripMenuItem.Text = "Tipo Producto";
             tipoProductoToolStripMenuItem.Click += tipoProductoToolStripMenuItem_Click;
             // 
             // marcaToolStripMenuItem
             // 
             marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
-            marcaToolStripMenuItem.Size = new Size(224, 26);
+            marcaToolStripMenuItem.Size = new Size(186, 26);
             marcaToolStripMenuItem.Text = "Marca";
             marcaToolStripMenuItem.Click += marcaToolStripMenuItem_Click;
+            // 
+            // comprasToolStripMenuItem
+            // 
+            comprasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { órdenDeCompraToolStripMenuItem });
+            comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
+            comprasToolStripMenuItem.Size = new Size(82, 24);
+            comprasToolStripMenuItem.Text = "Compras";
+            // 
+            // órdenDeCompraToolStripMenuItem
+            // 
+            órdenDeCompraToolStripMenuItem.Name = "órdenDeCompraToolStripMenuItem";
+            órdenDeCompraToolStripMenuItem.Size = new Size(224, 26);
+            órdenDeCompraToolStripMenuItem.Text = "Orden de Compra";
+            órdenDeCompraToolStripMenuItem.Click += órdenDeCompraToolStripMenuItem_Click;
             // 
             // MenuPrincipal
             // 
@@ -123,5 +139,7 @@
         private ToolStripMenuItem salirToolStripMenuItem;
         private ToolStripMenuItem tipoProductoToolStripMenuItem;
         private ToolStripMenuItem marcaToolStripMenuItem;
+        private ToolStripMenuItem comprasToolStripMenuItem;
+        private ToolStripMenuItem órdenDeCompraToolStripMenuItem;
     }
 }

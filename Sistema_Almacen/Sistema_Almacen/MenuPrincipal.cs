@@ -45,5 +45,11 @@ namespace Sistema_Almacen
             MantenedorMarca mantenedorMarca = new MantenedorMarca();
             mantenedorMarca.Show();
         }
+
+        private void órdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrdenCompra ordenCompra = new OrdenCompra();
+            ordenCompra.Show();
+        }
     }
 }
