@@ -45,3 +45,4 @@ C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Al
 C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.genruntimeconfig.cache
 C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\ref\Sistema_Almacen.dll
 C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.MantenedorTipoProducto.resources
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.MantenedorMarca.resources

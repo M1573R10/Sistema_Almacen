@@ -36,8 +36,14 @@ namespace Sistema_Almacen
 
         private void tipoProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MantenedorTipoProducto mantenedorTipoProducto = new MantenedorTipoProducto();   
+            MantenedorTipoProducto mantenedorTipoProducto = new MantenedorTipoProducto();
             mantenedorTipoProducto.Show();
+        }
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorMarca mantenedorMarca = new MantenedorMarca();
+            mantenedorMarca.Show();
         }
     }
 }

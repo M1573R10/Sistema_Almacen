@@ -35,6 +35,7 @@
             productoToolStripMenuItem = new ToolStripMenuItem();
             proveedoresToolStripMenuItem = new ToolStripMenuItem();
             tipoProductoToolStripMenuItem = new ToolStripMenuItem();
+            marcaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,13 +59,13 @@
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(224, 26);
+            salirToolStripMenuItem.Size = new Size(121, 26);
             salirToolStripMenuItem.Text = "Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
             // mantenedoresToolStripMenuItem
             // 
-            mantenedoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { productoToolStripMenuItem, proveedoresToolStripMenuItem, tipoProductoToolStripMenuItem });
+            mantenedoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { productoToolStripMenuItem, proveedoresToolStripMenuItem, tipoProductoToolStripMenuItem, marcaToolStripMenuItem });
             mantenedoresToolStripMenuItem.Name = "mantenedoresToolStripMenuItem";
             mantenedoresToolStripMenuItem.Size = new Size(118, 24);
             mantenedoresToolStripMenuItem.Text = "Mantenedores";
@@ -90,6 +91,13 @@
             tipoProductoToolStripMenuItem.Text = "Tipo Producto";
             tipoProductoToolStripMenuItem.Click += tipoProductoToolStripMenuItem_Click;
             // 
+            // marcaToolStripMenuItem
+            // 
+            marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
+            marcaToolStripMenuItem.Size = new Size(224, 26);
+            marcaToolStripMenuItem.Text = "Marca";
+            marcaToolStripMenuItem.Click += marcaToolStripMenuItem_Click;
+            // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -114,5 +122,6 @@
         private ToolStripMenuItem archivoToolStripMenuItem;
         private ToolStripMenuItem salirToolStripMenuItem;
         private ToolStripMenuItem tipoProductoToolStripMenuItem;
+        private ToolStripMenuItem marcaToolStripMenuItem;
     }
 }
