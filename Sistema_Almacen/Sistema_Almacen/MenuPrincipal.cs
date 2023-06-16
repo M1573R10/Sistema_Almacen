@@ -33,5 +33,11 @@ namespace Sistema_Almacen
         {
             Close();
         }
+
+        private void tipoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorTipoProducto mantenedorTipoProducto = new MantenedorTipoProducto();   
+            mantenedorTipoProducto.Show();
+        }
     }
 }
