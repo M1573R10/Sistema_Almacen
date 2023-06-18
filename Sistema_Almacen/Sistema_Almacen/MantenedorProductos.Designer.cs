@@ -33,6 +33,8 @@
             button2 = new Button();
             button3 = new Button();
             groupBox1 = new GroupBox();
+            comboBox1 = new ComboBox();
+            label5 = new Label();
             button6 = new Button();
             button5 = new Button();
             button4 = new Button();
@@ -44,10 +46,6 @@
             label2 = new Label();
             textBox1 = new TextBox();
             label1 = new Label();
-            label5 = new Label();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -91,8 +89,6 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(comboBox2);
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(button6);
@@ -112,6 +108,23 @@
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
             groupBox1.Text = "Registro de los Productos";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(164, 135);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(210, 28);
+            comboBox1.TabIndex = 14;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(20, 138);
+            label5.Name = "label5";
+            label5.Size = new Size(127, 20);
+            label5.TabIndex = 13;
+            label5.Text = "Tipo de Producto:";
             // 
             // button6
             // 
@@ -204,40 +217,6 @@
             label1.TabIndex = 0;
             label1.Text = "Código:";
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(20, 138);
-            label5.Name = "label5";
-            label5.Size = new Size(127, 20);
-            label5.TabIndex = 13;
-            label5.Text = "Tipo de Producto:";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(164, 135);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(210, 28);
-            comboBox1.TabIndex = 14;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(164, 169);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(210, 28);
-            comboBox2.TabIndex = 15;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(20, 172);
-            label6.Name = "label6";
-            label6.Size = new Size(53, 20);
-            label6.TabIndex = 16;
-            label6.Text = "Marca:";
-            // 
             // MantenedorProductos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -274,8 +253,6 @@
         private Label label4;
         private Button button6;
         private Button button5;
-        private Label label6;
-        private ComboBox comboBox2;
         private ComboBox comboBox1;
         private Label label5;
     }

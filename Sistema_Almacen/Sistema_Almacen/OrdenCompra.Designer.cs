@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ListViewItem listViewItem1 = new ListViewItem("Item");
-            ListViewItem listViewItem2 = new ListViewItem("Descripción         ");
-            ListViewItem listViewItem3 = new ListViewItem("Cantidad");
-            ListViewItem listViewItem4 = new ListViewItem("Importe");
+            ListViewItem listViewItem5 = new ListViewItem("Item");
+            ListViewItem listViewItem6 = new ListViewItem("Descripción         ");
+            ListViewItem listViewItem7 = new ListViewItem("Cantidad");
+            ListViewItem listViewItem8 = new ListViewItem("Importe");
             dateTimePicker1 = new DateTimePicker();
             label1 = new Label();
             textBox1 = new TextBox();
@@ -47,6 +47,8 @@
             textBox4 = new TextBox();
             label4 = new Label();
             listView1 = new ListView();
+            checkBox1 = new CheckBox();
+            label6 = new Label();
             SuspendLayout();
             // 
             // dateTimePicker1
@@ -165,7 +167,7 @@
             // 
             // listView1
             // 
-            listView1.Items.AddRange(new ListViewItem[] { listViewItem1, listViewItem2, listViewItem3, listViewItem4 });
+            listView1.Items.AddRange(new ListViewItem[] { listViewItem5, listViewItem6, listViewItem7, listViewItem8 });
             listView1.Location = new Point(29, 170);
             listView1.Margin = new Padding(4);
             listView1.Name = "listView1";
@@ -174,11 +176,32 @@
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.View = View.SmallIcon;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(489, 136);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(102, 24);
+            checkBox1.TabIndex = 18;
+            checkBox1.Text = "Habilitado";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(534, 107);
+            label6.Name = "label6";
+            label6.Size = new Size(57, 20);
+            label6.TabIndex = 19;
+            label6.Text = "Estado:";
+            // 
             // OrdenCompra
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(629, 450);
+            Controls.Add(label6);
+            Controls.Add(checkBox1);
             Controls.Add(listView1);
             Controls.Add(label4);
             Controls.Add(textBox4);
@@ -217,5 +240,7 @@
         private TextBox textBox4;
         private Label label4;
         public ListView listView1;
+        private CheckBox checkBox1;
+        private Label label6;
     }
 }
