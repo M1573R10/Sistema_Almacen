@@ -19,8 +19,11 @@ namespace Sistema_Almacen
 
         private void productoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           panelFormularios.Controls.Clear(); //limpiamos el panel
             MantenedorProductos productos = new MantenedorProductos();
-            productos.Show(this);
+            productos.TopLevel = false;
+            panelFormularios.Controls.Add(productos);
+            productos.Show();
         }
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
