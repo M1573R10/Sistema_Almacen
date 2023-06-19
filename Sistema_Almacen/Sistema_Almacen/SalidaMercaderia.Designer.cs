@@ -152,6 +152,7 @@
             Controls.Add(textBox1);
             Controls.Add(dateTimePicker1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "SalidaMercaderia";
             Text = "Salida Mercaderia";
             ResumeLayout(false);
