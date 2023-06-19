@@ -301,6 +301,7 @@
             Controls.Add(button4);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "MantenedorProveedores";
             Text = "Mantenedor de Proveedores";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
