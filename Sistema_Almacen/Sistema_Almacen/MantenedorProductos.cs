@@ -41,5 +41,10 @@ namespace Sistema_Almacen
                 MessageBox.Show("LLene todos los campos");
             }
         }
+
+        private void MantenedorProductos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
