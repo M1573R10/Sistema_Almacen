@@ -256,6 +256,7 @@
             Controls.Add(button6);
             Controls.Add(dgvProductos);
             Controls.Add(btnNuevo);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             Name = "MantenedorProductos";
             Text = "Mantenedor de Productos";
