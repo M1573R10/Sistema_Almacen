@@ -15,6 +15,31 @@ namespace Sistema_Almacen
         public MantenedorProductos()
         {
             InitializeComponent();
+            gpDatos.Enabled = false;
+            txtCodigo.Enabled = false;
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            gpDatos.Enabled = true;
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            gpDatos.Enabled = true;
+        }
+
+        private void btnDeshabilitar_Click(object sender, EventArgs e)
+        {
+            gpDatos.Enabled = true;
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            if (txtCategoria.Text == "" || txtDescripcion.Text == "" || txtNombre.Text == "" || cbMarca.Text == "" || cbTipoProducto.Text == "")
+            {
+                MessageBox.Show("LLene todos los campos");
+            }
         }
     }
 }
