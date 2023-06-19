@@ -183,6 +183,7 @@
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "RecepcionMercaderia";
             Text = "Recepcion de Mercaderia";
             ResumeLayout(false);
