@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +19,7 @@ namespace Sistema_Almacen
 
         private void productoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           panelFormularios.Controls.Clear(); //limpiamos el panel
+            panelFormularios.Controls.Clear(); //limpiamos el panel
             MantenedorProductos productos = new MantenedorProductos();
             productos.TopLevel = false;
             panelFormularios.Controls.Add(productos);
@@ -28,7 +28,10 @@ namespace Sistema_Almacen
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            panelFormularios.Controls.Clear(); //limpiamos el panel
             MantenedorProveedores mantenedorProveedores = new MantenedorProveedores();
+            mantenedorProveedores.TopLevel = false;
+            panelFormularios.Controls.Add(mantenedorProveedores);
             mantenedorProveedores.Show();
         }
 
@@ -39,13 +42,19 @@ namespace Sistema_Almacen
 
         private void tipoProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            panelFormularios.Controls.Clear(); //limpiamos el panel
             MantenedorTipoProducto mantenedorTipoProducto = new MantenedorTipoProducto();
+            mantenedorTipoProducto.TopLevel = false;
+            panelFormularios.Controls.Add(mantenedorTipoProducto);
             mantenedorTipoProducto.Show();
         }
 
         private void órdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            panelFormularios.Controls.Clear(); //limpiamos el panel
             OrdenCompra ordenCompra = new OrdenCompra();
+            ordenCompra.TopLevel = false;
+            panelFormularios.Controls.Add(ordenCompra);
             ordenCompra.Show();
         }
 
