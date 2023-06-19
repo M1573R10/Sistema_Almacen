@@ -217,6 +217,7 @@
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(dateTimePicker1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "OrdenCompra";
             Text = "Orden de Compra";
             ResumeLayout(false);
