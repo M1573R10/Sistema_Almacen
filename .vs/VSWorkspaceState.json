@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sistema_Almacen",
+    "\\Sistema_Almacen\\Sistema_Almacen"
   ],
-  "SelectedNode": "\\Sistema_Almacen.sln",
+  "SelectedNode": "\\Sistema_Almacen\\Sistema_Almacen\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
