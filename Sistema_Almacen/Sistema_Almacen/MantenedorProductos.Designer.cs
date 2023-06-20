@@ -102,7 +102,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(21, 172);
+            label6.Location = new Point(21, 139);
             label6.Name = "label6";
             label6.Size = new Size(53, 20);
             label6.TabIndex = 16;
@@ -111,7 +111,7 @@
             // cbMarca
             // 
             cbMarca.FormattingEnabled = true;
-            cbMarca.Location = new Point(165, 169);
+            cbMarca.Location = new Point(165, 136);
             cbMarca.Name = "cbMarca";
             cbMarca.Size = new Size(210, 28);
             cbMarca.TabIndex = 15;
@@ -119,7 +119,7 @@
             // cbTipoProducto
             // 
             cbTipoProducto.FormattingEnabled = true;
-            cbTipoProducto.Location = new Point(165, 135);
+            cbTipoProducto.Location = new Point(165, 102);
             cbTipoProducto.Name = "cbTipoProducto";
             cbTipoProducto.Size = new Size(210, 28);
             cbTipoProducto.TabIndex = 14;
@@ -127,7 +127,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(21, 139);
+            label5.Location = new Point(21, 105);
             label5.Name = "label5";
             label5.Size = new Size(127, 20);
             label5.TabIndex = 13;
@@ -145,7 +145,7 @@
             // 
             // txtDescripcion
             // 
-            txtDescripcion.Location = new Point(122, 101);
+            txtDescripcion.Location = new Point(125, 69);
             txtDescripcion.Name = "txtDescripcion";
             txtDescripcion.Size = new Size(358, 27);
             txtDescripcion.TabIndex = 9;
@@ -153,7 +153,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(21, 105);
+            label3.Location = new Point(21, 72);
             label3.Name = "label3";
             label3.Size = new Size(90, 20);
             label3.TabIndex = 8;
