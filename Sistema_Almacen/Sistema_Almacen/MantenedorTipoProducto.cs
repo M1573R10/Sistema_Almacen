@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CapaEntidad;
+using CapaLogica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +18,27 @@ namespace Sistema_Almacen
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entTipoProducto Registrar = new entTipoProducto();
+                Registrar.Nombre = txtNombre.Text.Trim();
+                Registrar.Descripcion = txtDescripcion.Text.Trim();
+                logTipoProducto.Instancia.RegistrarTipoProducto(Registrar);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+
+        }
     }
 }
+

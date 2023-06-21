@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Sistema_Almacen",
+    "\\Sistema_Almacen\\CapaDatos",
     "\\Sistema_Almacen\\Sistema_Almacen"
   ],
-  "SelectedNode": "\\Sistema_Almacen\\Sistema_Almacen\\Program.cs",
+  "SelectedNode": "\\Sistema_Almacen\\Sistema_Almacen\\SalidaMercaderia.cs",
   "PreviewInSolutionExplorer": false
 }

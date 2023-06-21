@@ -36,7 +36,7 @@ namespace Sistema_Almacen
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (txtCategoria.Text == "" || txtDescripcion.Text == "" || txtNombre.Text == "" || cbMarca.Text == "" || cbTipoProducto.Text == "")
+            if ( txtDescripcion.Text == "" || txtNombre.Text == "" || cbMarca.Text == "" || cbTipoProducto.Text == "")
             {
                 MessageBox.Show("LLene todos los campos");
             }

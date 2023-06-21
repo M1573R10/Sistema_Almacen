@@ -10,3 +10,18 @@ C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\C
 C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\refint\CapaDatos.dll
 C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.pdb
 C:\Kevin\2023-1\Modelamiento de Software\Trabajo Final\Sistema\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\ref\CapaDatos.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\bin\Debug\net7.0\CapaDatos.deps.json
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\bin\Debug\net7.0\CapaDatos.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\bin\Debug\net7.0\CapaDatos.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\bin\Debug\net7.0\CapaEntidad.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\bin\Debug\net7.0\CapaEntidad.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.AssemblyInfo.cs
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.csproj.CopyComplete
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\refint\CapaDatos.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\CapaDatos.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaDatos\ClassLibrary1\obj\Debug\net7.0\ref\CapaDatos.dll

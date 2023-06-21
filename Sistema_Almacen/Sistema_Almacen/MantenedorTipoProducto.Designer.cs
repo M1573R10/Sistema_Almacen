@@ -31,10 +31,10 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
+            txtCodigo = new TextBox();
+            txtNombre = new TextBox();
+            txtDescripcion = new TextBox();
+            btnRegistrar = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -70,35 +70,36 @@
             label3.TabIndex = 2;
             label3.Text = "Descripción:";
             // 
-            // textBox1
+            // txtCodigo
             // 
-            textBox1.Location = new Point(131, 43);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 3;
+            txtCodigo.Location = new Point(131, 43);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(125, 27);
+            txtCodigo.TabIndex = 3;
             // 
-            // textBox2
+            // txtNombre
             // 
-            textBox2.Location = new Point(131, 76);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(181, 27);
-            textBox2.TabIndex = 4;
+            txtNombre.Location = new Point(131, 76);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(181, 27);
+            txtNombre.TabIndex = 4;
             // 
-            // textBox3
+            // txtDescripcion
             // 
-            textBox3.Location = new Point(131, 109);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(315, 27);
-            textBox3.TabIndex = 5;
+            txtDescripcion.Location = new Point(131, 109);
+            txtDescripcion.Name = "txtDescripcion";
+            txtDescripcion.Size = new Size(315, 27);
+            txtDescripcion.TabIndex = 5;
             // 
-            // button1
+            // btnRegistrar
             // 
-            button1.Location = new Point(23, 157);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 6;
-            button1.Text = "Registrar";
-            button1.UseVisualStyleBackColor = true;
+            btnRegistrar.Location = new Point(23, 157);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(94, 29);
+            btnRegistrar.TabIndex = 6;
+            btnRegistrar.Text = "Registrar";
+            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += button1_Click;
             // 
             // button2
             // 
@@ -145,6 +146,7 @@
             button5.TabIndex = 11;
             button5.Text = "Regresar";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // MantenedorTipoProducto
             // 
@@ -156,10 +158,10 @@
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(btnRegistrar);
+            Controls.Add(txtDescripcion);
+            Controls.Add(txtNombre);
+            Controls.Add(txtCodigo);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -176,10 +178,10 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private Button button1;
+        private TextBox txtCodigo;
+        private TextBox txtNombre;
+        private TextBox txtDescripcion;
+        private Button btnRegistrar;
         private Button button2;
         private Button button3;
         private Button button4;

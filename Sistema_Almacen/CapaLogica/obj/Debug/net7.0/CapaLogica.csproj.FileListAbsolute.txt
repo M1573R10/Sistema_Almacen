@@ -1,0 +1,17 @@
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaLogica.deps.json
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaLogica.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaLogica.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaDatos.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaEntidad.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaDatos.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\bin\Debug\net7.0\CapaEntidad.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.AssemblyInfo.cs
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.csproj.CopyComplete
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\refint\CapaLogica.dll
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\CapaLogica.pdb
+C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\CapaLogica\obj\Debug\net7.0\ref\CapaLogica.dll

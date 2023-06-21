@@ -2,7 +2,7 @@
 {
     public class entTipoProducto
     {
-        public int CodtipPro { get; set; }
+        public int CodTipPro { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
     }
