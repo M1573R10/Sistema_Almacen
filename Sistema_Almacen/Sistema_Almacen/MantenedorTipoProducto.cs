@@ -17,6 +17,7 @@ namespace Sistema_Almacen
         public MantenedorTipoProducto()
         {
             InitializeComponent();
+            txtCodigo.Enabled=false;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -32,12 +33,21 @@ namespace Sistema_Almacen
                 Registrar.Nombre = txtNombre.Text.Trim();
                 Registrar.Descripcion = txtDescripcion.Text.Trim();
                 logTipoProducto.Instancia.RegistrarTipoProducto(Registrar);
+                MessageBox.Show("Registrado correctamente");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error.." + ex);
             }
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtCodigo.Clear();
+            txtNombre.Clear();
+            txtDescripcion.Clear();
+            txtNombre.Focus();
         }
     }
 }
