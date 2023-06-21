@@ -35,7 +35,7 @@
             txtNombre = new TextBox();
             txtDescripcion = new TextBox();
             btnRegistrar = new Button();
-            button2 = new Button();
+            btnModificar = new Button();
             button3 = new Button();
             button4 = new Button();
             dataGridView1 = new DataGridView();
@@ -101,14 +101,15 @@
             btnRegistrar.UseVisualStyleBackColor = true;
             btnRegistrar.Click += button1_Click;
             // 
-            // button2
+            // btnModificar
             // 
-            button2.Location = new Point(131, 157);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 7;
-            button2.Text = "Modificar";
-            button2.UseVisualStyleBackColor = true;
+            btnModificar.Location = new Point(131, 157);
+            btnModificar.Name = "btnModificar";
+            btnModificar.Size = new Size(94, 29);
+            btnModificar.TabIndex = 7;
+            btnModificar.Text = "Modificar";
+            btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // button3
             // 
@@ -158,7 +159,7 @@
             Controls.Add(dataGridView1);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnModificar);
             Controls.Add(btnRegistrar);
             Controls.Add(txtDescripcion);
             Controls.Add(txtNombre);
@@ -183,7 +184,7 @@
         private TextBox txtNombre;
         private TextBox txtDescripcion;
         private Button btnRegistrar;
-        private Button button2;
+        private Button btnModificar;
         private Button button3;
         private Button button4;
         private DataGridView dataGridView1;

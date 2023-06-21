@@ -35,6 +35,26 @@ namespace CapaDatos
             return inserta;
         }
 
+        public Boolean ModificarTipoProducto(entTipoProducto Modificar)
+        {
+            SqlCommand cmd = null;
+            Boolean modifica = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spActualizarTipoProducto", cn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@CodTipPro", Modificar.CodTipPro);
+                cmd.Parameters.AddWithValue("@Nombre", Modificar.Nombre);
+                cmd.Parameters.AddWithValue("@Descripcion", Modificar.Descripcion);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0) { modifica = true; }
+            }catch (Exception ex) { throw ex; }
+            finally { cmd.Connection.Close(); }
+            return modifica;
+        }
+
         #endregion
     }
 }

@@ -19,6 +19,11 @@ namespace CapaLogica
         {
             datTipoProducto.Instancia.RegistrarTipoProducto(Registrar);
         }
+        public void ModificarTipoProducto(entTipoProducto Modificar)
+        {
+            datTipoProducto.Instancia.ModificarTipoProducto(Modificar);
+        }
+
         #endregion
     }
 }

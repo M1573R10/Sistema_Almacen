@@ -17,7 +17,8 @@ namespace Sistema_Almacen
         public MantenedorTipoProducto()
         {
             InitializeComponent();
-            txtCodigo.Enabled=false;
+            txtCodigo.Enabled = false;
+            LimpiarDatos();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -34,6 +35,7 @@ namespace Sistema_Almacen
                 Registrar.Descripcion = txtDescripcion.Text.Trim();
                 logTipoProducto.Instancia.RegistrarTipoProducto(Registrar);
                 MessageBox.Show("Registrado correctamente");
+                LimpiarDatos();
             }
             catch (Exception ex)
             {
@@ -41,13 +43,35 @@ namespace Sistema_Almacen
             }
 
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void LimpiarDatos()
         {
             txtCodigo.Clear();
             txtNombre.Clear();
             txtDescripcion.Clear();
             txtNombre.Focus();
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LimpiarDatos()
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entTipoProducto Modificar = new entTipoProducto();
+                Modificar.CodTipPro = int.Parse(txtCodigo.Text.Trim());
+                Modificar.Nombre = txtNombre.Text.Trim();
+                Modificar.Descripcion = txtDescripcion.Text.Trim();
+                logTipoProducto.Instancia.ModificarTipoProducto(Modificar);
+                MessageBox.Show("La información se actualizó correctamente");
+                LimpiarDatos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+
         }
     }
 }
