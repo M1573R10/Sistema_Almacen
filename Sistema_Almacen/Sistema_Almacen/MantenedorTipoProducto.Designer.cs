@@ -36,7 +36,7 @@
             txtDescripcion = new TextBox();
             btnRegistrar = new Button();
             btnModificar = new Button();
-            button3 = new Button();
+            btnEliminar = new Button();
             button4 = new Button();
             dataGridView1 = new DataGridView();
             button5 = new Button();
@@ -111,14 +111,14 @@
             btnModificar.UseVisualStyleBackColor = true;
             btnModificar.Click += btnModificar_Click;
             // 
-            // button3
+            // btnEliminar
             // 
-            button3.Location = new Point(243, 157);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 8;
-            button3.Text = "Inhabilitar";
-            button3.UseVisualStyleBackColor = true;
+            btnEliminar.Location = new Point(243, 157);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(94, 29);
+            btnEliminar.TabIndex = 8;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -137,7 +137,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(423, 216);
+            dataGridView1.Size = new Size(565, 216);
             dataGridView1.TabIndex = 10;
             // 
             // button5
@@ -154,11 +154,11 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(490, 489);
+            ClientSize = new Size(600, 489);
             Controls.Add(button5);
             Controls.Add(dataGridView1);
             Controls.Add(button4);
-            Controls.Add(button3);
+            Controls.Add(btnEliminar);
             Controls.Add(btnModificar);
             Controls.Add(btnRegistrar);
             Controls.Add(txtDescripcion);
@@ -170,6 +170,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "MantenedorTipoProducto";
             Text = "Mantenedor Tipo Producto";
+            Load += MantenedorTipoProducto_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -185,7 +186,7 @@
         private TextBox txtDescripcion;
         private Button btnRegistrar;
         private Button btnModificar;
-        private Button button3;
+        private Button btnEliminar;
         private Button button4;
         private DataGridView dataGridView1;
         private Button button5;

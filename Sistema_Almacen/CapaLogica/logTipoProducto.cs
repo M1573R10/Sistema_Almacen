@@ -23,6 +23,10 @@ namespace CapaLogica
         {
             datTipoProducto.Instancia.ModificarTipoProducto(Modificar);
         }
+        public List<entTipoProducto> ListarTipoProducto()
+        {
+            return datTipoProducto.Instancia.ListarTipoProducto();
+        }
 
         #endregion
     }

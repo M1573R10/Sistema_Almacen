@@ -55,6 +55,60 @@ namespace CapaDatos
             return modifica;
         }
 
+        public List<entTipoProducto> ListarTipoProducto()
+        {
+            SqlCommand cmd = null;
+            List<entTipoProducto> Lista = new List<entTipoProducto>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spListaTipoProducto", cn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entTipoProducto Mostrar = new entTipoProducto();
+                    Mostrar.CodTipPro = Convert.ToInt32(dr["CodTipPro"]);
+                    Mostrar.Nombre = dr["Nombre"].ToString();
+                    Mostrar.Descripcion = dr["Descripcion"].ToString();
+                    Lista.Add(Mostrar);
+                }
+            }catch(Exception ex) { throw ex; }
+            finally { cmd.Connection.Close(); }
+            return Lista;
+        }
+        /**
+        public Boolean eliminarTipoProducto(entTipoProducto Eliminar)
+        {
+            SqlCommand cmd = null;
+            Boolean eliminar = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spEliminarTipoProducto", cn);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@CodTipPro", Eliminar.CodTipPro);
+                cmd.Parameters.AddWithValue("@Nombre", Eliminar.Nombre);
+                cmd.Parameters.AddWithValue("@Descripcion", Eliminar.Descripcion);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    eliminar = true;
+                }
+            }catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return eliminar;   
+
+        }
+        **/
         #endregion
     }
 }

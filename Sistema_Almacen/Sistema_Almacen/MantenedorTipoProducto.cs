@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Sistema_Almacen
 {
@@ -19,11 +20,12 @@ namespace Sistema_Almacen
             InitializeComponent();
             txtCodigo.Enabled = false;
             LimpiarDatos();
+            MostrarTipoProducto();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,7 +54,7 @@ namespace Sistema_Almacen
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            LimpiarDatos()
+            LimpiarDatos();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -72,6 +74,16 @@ namespace Sistema_Almacen
                 MessageBox.Show("Error.." + ex);
             }
 
+        }
+
+        private void MantenedorTipoProducto_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void MostrarTipoProducto()
+        {
+            dataGridView1.DataSource = logTipoProducto.Instancia.ListarTipoProducto();
         }
     }
 }
