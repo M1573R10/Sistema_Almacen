@@ -165,6 +165,7 @@
             Controls.Add(label1);
             Name = "MantenedorMarcacs";
             Text = "MantenedorMarca";
+            Load += MantenedorMarcacs_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

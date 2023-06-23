@@ -16,5 +16,10 @@ namespace Sistema_Almacen
         {
             InitializeComponent();
         }
+
+        private void MantenedorMarcacs_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
