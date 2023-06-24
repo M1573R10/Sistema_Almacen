@@ -55,5 +55,15 @@ namespace Sistema_Almacen
         {
             LimpiarDatos();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            LimpiarDatos();
+        }
     }
 }

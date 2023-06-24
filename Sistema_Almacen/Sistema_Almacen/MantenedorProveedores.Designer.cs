@@ -30,6 +30,7 @@
         {
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
+            dateTimePicker1 = new DateTimePicker();
             btnCancelar = new Button();
             btnModificar = new Button();
             btnRegistrar = new Button();
@@ -49,10 +50,8 @@
             txtRUC = new TextBox();
             label1 = new Label();
             btnLimpiar = new Button();
-            btnEditar = new Button();
             btnRegresar = new Button();
             btnInhabilitar = new Button();
-            dateTimePicker1 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -95,6 +94,13 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del Proveedor";
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(31, 188);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(295, 27);
+            dateTimePicker1.TabIndex = 19;
+            // 
             // btnCancelar
             // 
             btnCancelar.Location = new Point(676, 140);
@@ -103,6 +109,7 @@
             btnCancelar.TabIndex = 18;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnModificar
             // 
@@ -249,7 +256,7 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(688, 74);
+            btnLimpiar.Location = new Point(688, 97);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(94, 29);
             btnLimpiar.TabIndex = 2;
@@ -257,39 +264,24 @@
             btnLimpiar.UseVisualStyleBackColor = true;
             btnLimpiar.Click += button4_Click;
             // 
-            // btnEditar
-            // 
-            btnEditar.Location = new Point(688, 109);
-            btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(94, 29);
-            btnEditar.TabIndex = 3;
-            btnEditar.Text = "Editar";
-            btnEditar.UseVisualStyleBackColor = true;
-            // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(688, 144);
+            btnRegresar.Location = new Point(688, 132);
             btnRegresar.Name = "btnRegresar";
             btnRegresar.Size = new Size(94, 29);
             btnRegresar.TabIndex = 4;
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.Click += btnRegresar_Click;
             // 
             // btnInhabilitar
             // 
-            btnInhabilitar.Location = new Point(688, 179);
+            btnInhabilitar.Location = new Point(688, 167);
             btnInhabilitar.Name = "btnInhabilitar";
             btnInhabilitar.Size = new Size(94, 29);
             btnInhabilitar.TabIndex = 5;
             btnInhabilitar.Text = "Inhabilitar";
             btnInhabilitar.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(31, 188);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(295, 27);
-            dateTimePicker1.TabIndex = 19;
             // 
             // MantenedorProveedores
             // 
@@ -298,7 +290,6 @@
             ClientSize = new Size(800, 502);
             Controls.Add(btnInhabilitar);
             Controls.Add(btnRegresar);
-            Controls.Add(btnEditar);
             Controls.Add(btnLimpiar);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
@@ -334,7 +325,6 @@
         private TextBox txtRUC;
         private Label label1;
         private Button btnLimpiar;
-        private Button btnEditar;
         private Button btnRegresar;
         private Button btnInhabilitar;
         private DateTimePicker dateTimePicker1;

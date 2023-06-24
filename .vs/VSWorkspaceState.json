@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sistema_Almacen",
+    "\\Sistema_Almacen\\Sistema_Almacen"
   ],
+  "SelectedNode": "\\Sistema_Almacen\\Sistema_Almacen\\MantenedorMarca.cs",
   "PreviewInSolutionExplorer": false
 }
