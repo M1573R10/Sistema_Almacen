@@ -68,10 +68,21 @@ namespace Sistema_Almacen
                 logMarca.Instancia.ModificarMarca(Modificar);
                 MessageBox.Show("Actualizado correctamente");
                 LimpiarDatos();
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Error.." + ex);
             }
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            LimpiarDatos();
         }
     }
 }

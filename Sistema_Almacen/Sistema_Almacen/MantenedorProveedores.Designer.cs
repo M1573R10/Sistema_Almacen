@@ -30,29 +30,29 @@
         {
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            btnCancelar = new Button();
+            btnModificar = new Button();
+            btnRegistrar = new Button();
             checkBox1 = new CheckBox();
             label8 = new Label();
-            textBox7 = new TextBox();
             label7 = new Label();
-            textBox6 = new TextBox();
+            txtCorreo = new TextBox();
             label6 = new Label();
-            textBox5 = new TextBox();
+            txtContacto = new TextBox();
             label5 = new Label();
-            textBox4 = new TextBox();
+            txtTelefono = new TextBox();
             label4 = new Label();
-            textBox3 = new TextBox();
+            txtDireccion = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
+            txtRazonSocial = new TextBox();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtRUC = new TextBox();
             label1 = new Label();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            btnLimpiar = new Button();
+            btnEditar = new Button();
+            btnRegresar = new Button();
+            btnInhabilitar = new Button();
+            dateTimePicker1 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -69,64 +69,64 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(dateTimePicker1);
+            groupBox1.Controls.Add(btnCancelar);
+            groupBox1.Controls.Add(btnModificar);
+            groupBox1.Controls.Add(btnRegistrar);
             groupBox1.Controls.Add(checkBox1);
             groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(textBox7);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(textBox6);
+            groupBox1.Controls.Add(txtCorreo);
             groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(textBox5);
+            groupBox1.Controls.Add(txtContacto);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(textBox4);
+            groupBox1.Controls.Add(txtTelefono);
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(txtDireccion);
             groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(txtRazonSocial);
             groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(txtRUC);
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(12, 253);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(776, 200);
+            groupBox1.Size = new Size(776, 237);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del Proveedor";
             // 
-            // button3
+            // btnCancelar
             // 
-            button3.Location = new Point(676, 140);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 18;
-            button3.Text = "Cancelar";
-            button3.UseVisualStyleBackColor = true;
+            btnCancelar.Location = new Point(676, 140);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(94, 29);
+            btnCancelar.TabIndex = 18;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnModificar
             // 
-            button2.Location = new Point(676, 89);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 17;
-            button2.Text = "Modificar";
-            button2.UseVisualStyleBackColor = true;
+            btnModificar.Location = new Point(676, 89);
+            btnModificar.Name = "btnModificar";
+            btnModificar.Size = new Size(94, 29);
+            btnModificar.TabIndex = 17;
+            btnModificar.Text = "Modificar";
+            btnModificar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnRegistrar
             // 
-            button1.Location = new Point(676, 39);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 16;
-            button1.Text = "Agregar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnRegistrar.Location = new Point(676, 39);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(94, 29);
+            btnRegistrar.TabIndex = 16;
+            btnRegistrar.Text = "Agregar";
+            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += button1_Click;
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(490, 164);
+            checkBox1.Location = new Point(498, 164);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(102, 24);
             checkBox1.TabIndex = 15;
@@ -136,18 +136,11 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(418, 165);
+            label8.Location = new Point(435, 165);
             label8.Name = "label8";
             label8.Size = new Size(57, 20);
             label8.TabIndex = 14;
             label8.Text = "Estado:";
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(211, 162);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(161, 27);
-            textBox7.TabIndex = 13;
             // 
             // label7
             // 
@@ -158,12 +151,12 @@
             label7.TabIndex = 12;
             label7.Text = "Fecha Inición de Relación:";
             // 
-            // textBox6
+            // txtCorreo
             // 
-            textBox6.Location = new Point(332, 121);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(268, 27);
-            textBox6.TabIndex = 11;
+            txtCorreo.Location = new Point(332, 121);
+            txtCorreo.Name = "txtCorreo";
+            txtCorreo.Size = new Size(268, 27);
+            txtCorreo.TabIndex = 11;
             // 
             // label6
             // 
@@ -174,12 +167,12 @@
             label6.TabIndex = 10;
             label6.Text = "Correo:";
             // 
-            // textBox5
+            // txtContacto
             // 
-            textBox5.Location = new Point(96, 118);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(139, 27);
-            textBox5.TabIndex = 9;
+            txtContacto.Location = new Point(96, 118);
+            txtContacto.Name = "txtContacto";
+            txtContacto.Size = new Size(139, 27);
+            txtContacto.TabIndex = 9;
             // 
             // label5
             // 
@@ -190,12 +183,12 @@
             label5.TabIndex = 8;
             label5.Text = "Contacto:";
             // 
-            // textBox4
+            // txtTelefono
             // 
-            textBox4.Location = new Point(447, 77);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(153, 27);
-            textBox4.TabIndex = 7;
+            txtTelefono.Location = new Point(447, 77);
+            txtTelefono.Name = "txtTelefono";
+            txtTelefono.Size = new Size(153, 27);
+            txtTelefono.TabIndex = 7;
             // 
             // label4
             // 
@@ -206,12 +199,12 @@
             label4.TabIndex = 6;
             label4.Text = "Teléfono:";
             // 
-            // textBox3
+            // txtDireccion
             // 
-            textBox3.Location = new Point(96, 77);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(240, 27);
-            textBox3.TabIndex = 5;
+            txtDireccion.Location = new Point(96, 77);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(240, 27);
+            txtDireccion.TabIndex = 5;
             // 
             // label3
             // 
@@ -222,12 +215,12 @@
             label3.TabIndex = 4;
             label3.Text = "Dirección:";
             // 
-            // textBox2
+            // txtRazonSocial
             // 
-            textBox2.Location = new Point(357, 36);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(243, 27);
-            textBox2.TabIndex = 3;
+            txtRazonSocial.Location = new Point(357, 36);
+            txtRazonSocial.Name = "txtRazonSocial";
+            txtRazonSocial.Size = new Size(243, 27);
+            txtRazonSocial.TabIndex = 3;
             // 
             // label2
             // 
@@ -238,12 +231,12 @@
             label2.TabIndex = 2;
             label2.Text = "Razón Social:";
             // 
-            // textBox1
+            // txtRUC
             // 
-            textBox1.Location = new Point(90, 36);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 1;
+            txtRUC.Location = new Point(90, 36);
+            txtRUC.Name = "txtRUC";
+            txtRUC.Size = new Size(125, 27);
+            txtRUC.TabIndex = 1;
             // 
             // label1
             // 
@@ -254,51 +247,59 @@
             label1.TabIndex = 0;
             label1.Text = "RUC:";
             // 
-            // button4
+            // btnLimpiar
             // 
-            button4.Location = new Point(688, 74);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 2;
-            button4.Text = "Limpiar";
-            button4.UseVisualStyleBackColor = true;
+            btnLimpiar.Location = new Point(688, 74);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(94, 29);
+            btnLimpiar.TabIndex = 2;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += button4_Click;
             // 
-            // button5
+            // btnEditar
             // 
-            button5.Location = new Point(688, 109);
-            button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 3;
-            button5.Text = "Editar";
-            button5.UseVisualStyleBackColor = true;
+            btnEditar.Location = new Point(688, 109);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(94, 29);
+            btnEditar.TabIndex = 3;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnRegresar
             // 
-            button6.Location = new Point(688, 144);
-            button6.Name = "button6";
-            button6.Size = new Size(94, 29);
-            button6.TabIndex = 4;
-            button6.Text = "Regresar";
-            button6.UseVisualStyleBackColor = true;
+            btnRegresar.Location = new Point(688, 144);
+            btnRegresar.Name = "btnRegresar";
+            btnRegresar.Size = new Size(94, 29);
+            btnRegresar.TabIndex = 4;
+            btnRegresar.Text = "Regresar";
+            btnRegresar.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnInhabilitar
             // 
-            button7.Location = new Point(688, 179);
-            button7.Name = "button7";
-            button7.Size = new Size(94, 29);
-            button7.TabIndex = 5;
-            button7.Text = "Inhabilitar";
-            button7.UseVisualStyleBackColor = true;
+            btnInhabilitar.Location = new Point(688, 179);
+            btnInhabilitar.Name = "btnInhabilitar";
+            btnInhabilitar.Size = new Size(94, 29);
+            btnInhabilitar.TabIndex = 5;
+            btnInhabilitar.Text = "Inhabilitar";
+            btnInhabilitar.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(31, 188);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(295, 27);
+            dateTimePicker1.TabIndex = 19;
             // 
             // MantenedorProveedores
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 465);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
+            ClientSize = new Size(800, 502);
+            Controls.Add(btnInhabilitar);
+            Controls.Add(btnRegresar);
+            Controls.Add(btnEditar);
+            Controls.Add(btnLimpiar);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
@@ -314,28 +315,28 @@
 
         private DataGridView dataGridView1;
         private GroupBox groupBox1;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btnCancelar;
+        private Button btnModificar;
+        private Button btnRegistrar;
         private CheckBox checkBox1;
         private Label label8;
-        private TextBox textBox7;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox txtCorreo;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox txtContacto;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox txtTelefono;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox txtDireccion;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox txtRazonSocial;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtRUC;
         private Label label1;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
+        private Button btnLimpiar;
+        private Button btnEditar;
+        private Button btnRegresar;
+        private Button btnInhabilitar;
+        private DateTimePicker dateTimePicker1;
     }
 }

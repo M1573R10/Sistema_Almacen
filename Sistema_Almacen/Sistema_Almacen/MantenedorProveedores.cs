@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CapaEntidad;
+using CapaLogica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,11 +17,43 @@ namespace Sistema_Almacen
         public MantenedorProveedores()
         {
             InitializeComponent();
+            LimpiarDatos();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                entProveedores Registrar = new entProveedores();
+                Registrar.RUC = txtRUC.Text.Trim();
+                Registrar.RazonSocial = txtRazonSocial.Text.Trim();
+                Registrar.Direccion = txtDireccion.Text.Trim();
+                Registrar.Telefono = txtTelefono.Text.Trim();
+                Registrar.Contacto = txtContacto.Text.Trim();
+                Registrar.Correo = txtCorreo.Text.Trim();
+                Registrar.FechaInicio = dateTimePicker1.Value;
+                Registrar.Estado = checkBox1.Checked;
+                logProveedores.Instancia.RegistrarProveedores(Registrar);
+                MessageBox.Show("Registrado correctamente");
+                LimpiarDatos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+        }
+        private void LimpiarDatos()
+        {
+            txtContacto.Clear();
+            txtCorreo.Clear();
+            txtDireccion.Clear();
+            txtRazonSocial.Clear();
+            txtRUC.Clear();
+            txtTelefono.Clear();
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LimpiarDatos();
         }
     }
 }

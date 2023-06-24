@@ -35,10 +35,10 @@ namespace Sistema_Almacen
             productoToolStripMenuItem = new ToolStripMenuItem();
             proveedoresToolStripMenuItem = new ToolStripMenuItem();
             tipoProductoToolStripMenuItem = new ToolStripMenuItem();
+            marcaToolStripMenuItem = new ToolStripMenuItem();
             comprasToolStripMenuItem = new ToolStripMenuItem();
             órdenDeCompraToolStripMenuItem = new ToolStripMenuItem();
             panelFormularios = new Panel();
-            marcaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -95,6 +95,13 @@ namespace Sistema_Almacen
             tipoProductoToolStripMenuItem.Text = "Tipo Producto";
             tipoProductoToolStripMenuItem.Click += tipoProductoToolStripMenuItem_Click;
             // 
+            // marcaToolStripMenuItem
+            // 
+            marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
+            marcaToolStripMenuItem.Size = new Size(186, 26);
+            marcaToolStripMenuItem.Text = "Marca";
+            marcaToolStripMenuItem.Click += marcaToolStripMenuItem_Click;
+            // 
             // comprasToolStripMenuItem
             // 
             comprasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { órdenDeCompraToolStripMenuItem });
@@ -115,22 +122,15 @@ namespace Sistema_Almacen
             panelFormularios.Location = new Point(0, 30);
             panelFormularios.Margin = new Padding(3, 4, 3, 4);
             panelFormularios.Name = "panelFormularios";
-            panelFormularios.Size = new Size(800, 465);
+            panelFormularios.Size = new Size(800, 525);
             panelFormularios.TabIndex = 1;
             panelFormularios.Paint += panelFormularios_Paint;
-            // 
-            // marcaToolStripMenuItem
-            // 
-            marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
-            marcaToolStripMenuItem.Size = new Size(224, 26);
-            marcaToolStripMenuItem.Text = "Marca";
-            marcaToolStripMenuItem.Click += marcaToolStripMenuItem_Click;
             // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 495);
+            ClientSize = new Size(800, 555);
             Controls.Add(panelFormularios);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;

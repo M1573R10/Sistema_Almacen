@@ -128,6 +128,7 @@
             btnLimpiar.TabIndex = 9;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // dataGridView1
             // 
@@ -147,6 +148,7 @@
             btnRegresar.TabIndex = 11;
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.Click += btnRegresar_Click;
             // 
             // MantenedorMarca
             // 
