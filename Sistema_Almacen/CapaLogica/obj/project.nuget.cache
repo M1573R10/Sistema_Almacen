@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pWAowlfHXPf73UPse/zgmdev3IJf/QGLOgqnCoWfCFU8yEW0c1jEPlIPH3QHpskwx4piEC8Qb73LlBnZ5ntf7g==",
+  "dgSpecHash": "jR+C7yhXf6SrZcRfswWscif8BMbK7mzp0KtwmPQLLMJY9WqfOoTkOOZhhxN1cYkh+qJNM+Bhqt1gOVky96/LQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Source\\Repos\\M1573R10\\Sistema_Almacen\\Sistema_Almacen\\CapaLogica\\CapaLogica.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\M1573R10\\Sistema_Almacen\\Sistema_Almacen\\CapaLogica\\CapaLogica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

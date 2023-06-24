@@ -80,3 +80,4 @@ C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Al
 C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\CapaLogica.pdb
 C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\bin\Debug\net7.0-windows\CapaDatos.pdb
 C:\Users\LENOVO\Source\Repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\M1573R10\Sistema_Almacen\Sistema_Almacen\Sistema_Almacen\obj\Debug\net7.0-windows\Sistema_Almacen.MantenedorMarca.resources

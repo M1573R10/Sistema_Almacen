@@ -38,6 +38,7 @@ namespace Sistema_Almacen
             comprasToolStripMenuItem = new ToolStripMenuItem();
             órdenDeCompraToolStripMenuItem = new ToolStripMenuItem();
             panelFormularios = new Panel();
+            marcaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,8 +48,8 @@ namespace Sistema_Almacen
             menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, mantenedoresToolStripMenuItem, comprasToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(5, 2, 0, 2);
-            menuStrip1.Size = new Size(700, 24);
+            menuStrip1.Padding = new Padding(6, 3, 0, 3);
+            menuStrip1.Size = new Size(800, 30);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -56,41 +57,41 @@ namespace Sistema_Almacen
             // 
             archivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { salirToolStripMenuItem });
             archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            archivoToolStripMenuItem.Size = new Size(60, 20);
+            archivoToolStripMenuItem.Size = new Size(73, 24);
             archivoToolStripMenuItem.Text = "Archivo";
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(96, 22);
+            salirToolStripMenuItem.Size = new Size(121, 26);
             salirToolStripMenuItem.Text = "Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
             // mantenedoresToolStripMenuItem
             // 
-            mantenedoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { productoToolStripMenuItem, proveedoresToolStripMenuItem, tipoProductoToolStripMenuItem });
+            mantenedoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { productoToolStripMenuItem, proveedoresToolStripMenuItem, tipoProductoToolStripMenuItem, marcaToolStripMenuItem });
             mantenedoresToolStripMenuItem.Name = "mantenedoresToolStripMenuItem";
-            mantenedoresToolStripMenuItem.Size = new Size(95, 20);
+            mantenedoresToolStripMenuItem.Size = new Size(118, 24);
             mantenedoresToolStripMenuItem.Text = "Mantenedores";
             // 
             // productoToolStripMenuItem
             // 
             productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            productoToolStripMenuItem.Size = new Size(149, 22);
+            productoToolStripMenuItem.Size = new Size(186, 26);
             productoToolStripMenuItem.Text = "Producto";
             productoToolStripMenuItem.Click += productoToolStripMenuItem_Click;
             // 
             // proveedoresToolStripMenuItem
             // 
             proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            proveedoresToolStripMenuItem.Size = new Size(149, 22);
+            proveedoresToolStripMenuItem.Size = new Size(186, 26);
             proveedoresToolStripMenuItem.Text = "Proveedores";
             proveedoresToolStripMenuItem.Click += proveedoresToolStripMenuItem_Click;
             // 
             // tipoProductoToolStripMenuItem
             // 
             tipoProductoToolStripMenuItem.Name = "tipoProductoToolStripMenuItem";
-            tipoProductoToolStripMenuItem.Size = new Size(149, 22);
+            tipoProductoToolStripMenuItem.Size = new Size(186, 26);
             tipoProductoToolStripMenuItem.Text = "Tipo Producto";
             tipoProductoToolStripMenuItem.Click += tipoProductoToolStripMenuItem_Click;
             // 
@@ -98,33 +99,41 @@ namespace Sistema_Almacen
             // 
             comprasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { órdenDeCompraToolStripMenuItem });
             comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            comprasToolStripMenuItem.Size = new Size(67, 20);
+            comprasToolStripMenuItem.Size = new Size(82, 24);
             comprasToolStripMenuItem.Text = "Compras";
             // 
             // órdenDeCompraToolStripMenuItem
             // 
             órdenDeCompraToolStripMenuItem.Name = "órdenDeCompraToolStripMenuItem";
-            órdenDeCompraToolStripMenuItem.Size = new Size(169, 22);
+            órdenDeCompraToolStripMenuItem.Size = new Size(211, 26);
             órdenDeCompraToolStripMenuItem.Text = "Orden de Compra";
             órdenDeCompraToolStripMenuItem.Click += órdenDeCompraToolStripMenuItem_Click;
             // 
             // panelFormularios
             // 
             panelFormularios.Dock = DockStyle.Fill;
-            panelFormularios.Location = new Point(0, 24);
+            panelFormularios.Location = new Point(0, 30);
+            panelFormularios.Margin = new Padding(3, 4, 3, 4);
             panelFormularios.Name = "panelFormularios";
-            panelFormularios.Size = new Size(700, 347);
+            panelFormularios.Size = new Size(800, 465);
             panelFormularios.TabIndex = 1;
+            panelFormularios.Paint += panelFormularios_Paint;
+            // 
+            // marcaToolStripMenuItem
+            // 
+            marcaToolStripMenuItem.Name = "marcaToolStripMenuItem";
+            marcaToolStripMenuItem.Size = new Size(224, 26);
+            marcaToolStripMenuItem.Text = "Marca";
+            marcaToolStripMenuItem.Click += marcaToolStripMenuItem_Click;
             // 
             // MenuPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 371);
+            ClientSize = new Size(800, 495);
             Controls.Add(panelFormularios);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "MenuPrincipal";
             Text = "Menu_Principal";
             Load += MenuPrincipal_Load;
@@ -146,5 +155,6 @@ namespace Sistema_Almacen
         private ToolStripMenuItem comprasToolStripMenuItem;
         private ToolStripMenuItem órdenDeCompraToolStripMenuItem;
         private Panel panelFormularios;
+        private ToolStripMenuItem marcaToolStripMenuItem;
     }
 }

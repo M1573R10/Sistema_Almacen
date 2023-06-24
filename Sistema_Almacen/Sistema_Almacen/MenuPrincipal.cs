@@ -62,5 +62,20 @@ namespace Sistema_Almacen
         {
 
         }
+
+        private void panelFormularios_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelFormularios.Controls.Clear();
+            MantenedorMarca marca = new MantenedorMarca();
+            marca.TopLevel = false;
+            panelFormularios.Controls.Add(marca);
+            marca.Show();
+
+        }
     }
 }

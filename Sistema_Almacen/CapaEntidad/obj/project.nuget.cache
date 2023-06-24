@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fYvOW0V80E44kmBW8qjGEH1oa3EYBXdQSac7KnAejEyXA1EIWMFr7vMvfPw/w6s0SEg95MjjoxCftaTxnkyjwA==",
+  "dgSpecHash": "V83ipo4QXxftxcTRSxuLL7eM1usx3QGvHhAou/ArhL1Hq2Lo7SdbH8Tz/fZ5FuTJD5kIj/vCBAeT+kxTIdfiqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Source\\Repos\\M1573R10\\Sistema_Almacen\\Sistema_Almacen\\CapaEntidad\\CapaEntidad.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\M1573R10\\Sistema_Almacen\\Sistema_Almacen\\CapaEntidad\\CapaEntidad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

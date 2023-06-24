@@ -85,6 +85,31 @@ namespace Sistema_Almacen
         {
             dataGridView1.DataSource = logTipoProducto.Instancia.ListarTipoProducto();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entTipoProducto Eliminar = new entTipoProducto();
+                Eliminar.CodTipPro = int.Parse(txtCodigo.Text.Trim());
+                logTipoProducto.Instancia.EliminaTipoProducto(Eliminar);
+                MessageBox.Show("Se eliminó la información");
+                LimpiarDatos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow filaActual = dataGridView1.Rows[e.RowIndex];
+            txtCodigo.Text = filaActual.Cells[0].Value.ToString();
+            txtNombre.Text = filaActual.Cells[1].Value.ToString();
+            txtDescripcion.Text = filaActual.Cells[2].Value.ToString();
+
+        }
     }
 }
 

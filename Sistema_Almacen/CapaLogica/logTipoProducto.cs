@@ -28,6 +28,11 @@ namespace CapaLogica
             return datTipoProducto.Instancia.ListarTipoProducto();
         }
 
+        public void EliminaTipoProducto(entTipoProducto Elimina)
+        {
+            datTipoProducto.Instancia.eliminarTipoProducto(Elimina);
+        }
+
         #endregion
     }
 }

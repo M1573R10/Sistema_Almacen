@@ -1,6 +1,6 @@
 ﻿namespace Sistema_Almacen
 {
-    partial class MantenedorMarcacs
+    partial class MantenedorMarca
     {
         /// <summary>
         /// Required designer variable.
@@ -31,9 +31,9 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtCodigo = new TextBox();
+            txtNombre = new TextBox();
+            txtDescripcion = new TextBox();
             btnRegistrar = new Button();
             btnModificar = new Button();
             btnEliminar = new Button();
@@ -70,26 +70,26 @@
             label3.TabIndex = 2;
             label3.Text = "Descripcion:";
             // 
-            // textBox1
+            // txtCodigo
             // 
-            textBox1.Location = new Point(179, 57);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 3;
+            txtCodigo.Location = new Point(179, 57);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(125, 27);
+            txtCodigo.TabIndex = 3;
             // 
-            // textBox2
+            // txtNombre
             // 
-            textBox2.Location = new Point(179, 90);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(206, 27);
-            textBox2.TabIndex = 4;
+            txtNombre.Location = new Point(179, 90);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(206, 27);
+            txtNombre.TabIndex = 4;
             // 
-            // textBox3
+            // txtDescripcion
             // 
-            textBox3.Location = new Point(179, 123);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(313, 27);
-            textBox3.TabIndex = 5;
+            txtDescripcion.Location = new Point(179, 123);
+            txtDescripcion.Name = "txtDescripcion";
+            txtDescripcion.Size = new Size(313, 27);
+            txtDescripcion.TabIndex = 5;
             // 
             // btnRegistrar
             // 
@@ -99,6 +99,7 @@
             btnRegistrar.TabIndex = 6;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // btnModificar
             // 
@@ -108,6 +109,7 @@
             btnModificar.TabIndex = 7;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnEliminar
             // 
@@ -146,24 +148,25 @@
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = true;
             // 
-            // MantenedorMarcacs
+            // MantenedorMarca
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(582, 450);
             Controls.Add(btnRegresar);
             Controls.Add(dataGridView1);
             Controls.Add(btnLimpiar);
             Controls.Add(btnEliminar);
             Controls.Add(btnModificar);
             Controls.Add(btnRegistrar);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtDescripcion);
+            Controls.Add(txtNombre);
+            Controls.Add(txtCodigo);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "MantenedorMarcacs";
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "MantenedorMarca";
             Text = "MantenedorMarca";
             Load += MantenedorMarcacs_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -176,9 +179,9 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtCodigo;
+        private TextBox txtNombre;
+        private TextBox txtDescripcion;
         private Button btnRegistrar;
         private Button btnModificar;
         private Button btnEliminar;

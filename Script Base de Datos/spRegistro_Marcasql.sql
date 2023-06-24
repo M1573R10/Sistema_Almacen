@@ -1,5 +1,4 @@
-DROP PROCEDURE spRegistroMarca;
-CREATE PROCEDURE spRegistroMarca
+create procedure spRegistroMarca
     @CodMarca INT,
     @Nombre VARCHAR(20),
     @Descripcion VARCHAR(60)
@@ -8,6 +7,6 @@ BEGIN
     SET NOCOUNT ON;
 
     -- Insertar la nueva marca en la tabla Marca
-    INSERT INTO Marca (CodMarca, Nombre, Descripcion)
-    VALUES (@CodMarca, @Nombre, @Descripcion);
+   insert into Marca (CodMarca, Nombre, Descripcion)
+    values (@CodMarca, @Nombre, @Descripcion);
 END

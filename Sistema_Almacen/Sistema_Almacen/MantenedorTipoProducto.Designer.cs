@@ -119,6 +119,7 @@
             btnEliminar.TabIndex = 8;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // button4
             // 
@@ -139,6 +140,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(565, 216);
             dataGridView1.TabIndex = 10;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // button5
             // 
