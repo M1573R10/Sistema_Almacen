@@ -35,4 +35,9 @@ begin
 	delete from Marca where CodMarca = @CodMarca
 end
 
-select * from Marca
+create procedure spListaMarcaCombobox
+as
+	Select * from Marca
+go
+
+select * from Producto

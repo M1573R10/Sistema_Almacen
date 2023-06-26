@@ -35,8 +35,16 @@ update Proveedores set
 	where RUC = @RUC
 end
 
-select * from Marca
+create procedure spDeshabilitaProveedores(
+	@RUC char(11)
+)as
+begin 
+	update  Proveedores set 
+	Estado = 0
+	where RUC = @RUC
+end
 
-select * from TipoProducto
-
-select * from Proveedores
+create procedure spListaProveedores
+as
+	select RUC, RazonSocial, Direccion, Telefono, Contacto, Correo, FechaInicio, Estado from Proveedores 
+	where Estado = '1'

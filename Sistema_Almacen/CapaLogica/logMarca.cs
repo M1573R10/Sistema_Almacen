@@ -34,6 +34,13 @@ namespace CapaLogica
             return datMarca.Instancia.ListarMarca();
         }
 
+
+        public void EliminarMarca(entMarca Eliminar)
+        {
+            datMarca.Instancia.EliminarMarca(Eliminar);
+        }
+ 
+
         #endregion
     }
 }

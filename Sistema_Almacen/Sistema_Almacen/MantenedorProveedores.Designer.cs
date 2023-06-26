@@ -65,6 +65,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(606, 188);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // groupBox1
             // 
@@ -119,6 +120,7 @@
             btnModificar.TabIndex = 17;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnRegistrar
             // 
@@ -282,6 +284,7 @@
             btnInhabilitar.TabIndex = 5;
             btnInhabilitar.Text = "Inhabilitar";
             btnInhabilitar.UseVisualStyleBackColor = true;
+            btnInhabilitar.Click += btnInhabilitar_Click;
             // 
             // MantenedorProveedores
             // 
@@ -296,6 +299,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "MantenedorProveedores";
             Text = "Mantenedor de Proveedores";
+            Load += MantenedorProveedores_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

@@ -29,22 +29,23 @@
         private void InitializeComponent()
         {
             dgvProductos = new DataGridView();
-            btnDeshabilitar = new Button();
-            btnEditar = new Button();
+            btnInhabilitar = new Button();
+            btnRegresar = new Button();
             gpDatos = new GroupBox();
-            label6 = new Label();
-            cbMarca = new ComboBox();
-            cbTipoProducto = new ComboBox();
+            btnActualizar = new Button();
+            label4 = new Label();
+            cmbMarca = new ComboBox();
+            btnCancelar = new Button();
+            cmbTipoProducto = new ComboBox();
             label5 = new Label();
-            btnAceptar = new Button();
+            btnAgregar = new Button();
             txtDescripcion = new TextBox();
             label3 = new Label();
             txtNombre = new TextBox();
             label2 = new Label();
             txtCodigo = new TextBox();
             label1 = new Label();
-            button6 = new Button();
-            btnNuevo = new Button();
+            btnLimpiar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProductos).BeginInit();
             gpDatos.SuspendLayout();
             SuspendLayout();
@@ -56,36 +57,39 @@
             dgvProductos.Name = "dgvProductos";
             dgvProductos.RowHeadersWidth = 51;
             dgvProductos.RowTemplate.Height = 29;
-            dgvProductos.Size = new Size(603, 168);
+            dgvProductos.Size = new Size(564, 168);
             dgvProductos.TabIndex = 0;
+            dgvProductos.CellContentClick += dgvProductos_CellContentClick;
             // 
-            // btnDeshabilitar
+            // btnInhabilitar
             // 
-            btnDeshabilitar.Location = new Point(672, 111);
-            btnDeshabilitar.Name = "btnDeshabilitar";
-            btnDeshabilitar.Size = new Size(94, 29);
-            btnDeshabilitar.TabIndex = 1;
-            btnDeshabilitar.Text = "Deshabilitar";
-            btnDeshabilitar.UseVisualStyleBackColor = true;
-            btnDeshabilitar.Click += btnDeshabilitar_Click;
+            btnInhabilitar.Location = new Point(627, 150);
+            btnInhabilitar.Name = "btnInhabilitar";
+            btnInhabilitar.Size = new Size(94, 29);
+            btnInhabilitar.TabIndex = 1;
+            btnInhabilitar.Text = "Inhabilitar";
+            btnInhabilitar.UseVisualStyleBackColor = true;
+            btnInhabilitar.Click += btnDeshabilitar_Click;
             // 
-            // btnEditar
+            // btnRegresar
             // 
-            btnEditar.Location = new Point(672, 76);
-            btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(94, 29);
-            btnEditar.TabIndex = 2;
-            btnEditar.Text = "Editar";
-            btnEditar.UseVisualStyleBackColor = true;
-            btnEditar.Click += btnEditar_Click;
+            btnRegresar.Location = new Point(627, 115);
+            btnRegresar.Name = "btnRegresar";
+            btnRegresar.Size = new Size(94, 29);
+            btnRegresar.TabIndex = 2;
+            btnRegresar.Text = "Regresar";
+            btnRegresar.UseVisualStyleBackColor = true;
+            btnRegresar.Click += btnEditar_Click;
             // 
             // gpDatos
             // 
-            gpDatos.Controls.Add(label6);
-            gpDatos.Controls.Add(cbMarca);
-            gpDatos.Controls.Add(cbTipoProducto);
+            gpDatos.Controls.Add(btnActualizar);
+            gpDatos.Controls.Add(label4);
+            gpDatos.Controls.Add(cmbMarca);
+            gpDatos.Controls.Add(btnCancelar);
+            gpDatos.Controls.Add(cmbTipoProducto);
             gpDatos.Controls.Add(label5);
-            gpDatos.Controls.Add(btnAceptar);
+            gpDatos.Controls.Add(btnAgregar);
             gpDatos.Controls.Add(txtDescripcion);
             gpDatos.Controls.Add(label3);
             gpDatos.Controls.Add(txtNombre);
@@ -94,35 +98,55 @@
             gpDatos.Controls.Add(label1);
             gpDatos.Location = new Point(11, 229);
             gpDatos.Name = "gpDatos";
-            gpDatos.Size = new Size(754, 227);
+            gpDatos.Size = new Size(754, 186);
             gpDatos.TabIndex = 4;
             gpDatos.TabStop = false;
             gpDatos.Text = "Registro de los Productos";
             // 
-            // label6
+            // btnActualizar
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(21, 139);
-            label6.Name = "label6";
-            label6.Size = new Size(53, 20);
-            label6.TabIndex = 16;
-            label6.Text = "Marca:";
+            btnActualizar.Location = new Point(616, 61);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(94, 29);
+            btnActualizar.TabIndex = 18;
+            btnActualizar.Text = "Modificar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
             // 
-            // cbMarca
+            // label4
             // 
-            cbMarca.FormattingEnabled = true;
-            cbMarca.Location = new Point(165, 136);
-            cbMarca.Name = "cbMarca";
-            cbMarca.Size = new Size(210, 28);
-            cbMarca.TabIndex = 15;
+            label4.AutoSize = true;
+            label4.Location = new Point(21, 139);
+            label4.Name = "label4";
+            label4.Size = new Size(53, 20);
+            label4.TabIndex = 17;
+            label4.Text = "Marca:";
             // 
-            // cbTipoProducto
+            // cmbMarca
             // 
-            cbTipoProducto.FormattingEnabled = true;
-            cbTipoProducto.Location = new Point(165, 102);
-            cbTipoProducto.Name = "cbTipoProducto";
-            cbTipoProducto.Size = new Size(210, 28);
-            cbTipoProducto.TabIndex = 14;
+            cmbMarca.FormattingEnabled = true;
+            cmbMarca.Location = new Point(165, 136);
+            cmbMarca.Name = "cmbMarca";
+            cmbMarca.Size = new Size(210, 28);
+            cmbMarca.TabIndex = 16;
+            // 
+            // btnCancelar
+            // 
+            btnCancelar.Location = new Point(616, 96);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(94, 29);
+            btnCancelar.TabIndex = 15;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
+            // 
+            // cmbTipoProducto
+            // 
+            cmbTipoProducto.FormattingEnabled = true;
+            cmbTipoProducto.Location = new Point(165, 102);
+            cmbTipoProducto.Name = "cmbTipoProducto";
+            cmbTipoProducto.Size = new Size(210, 28);
+            cmbTipoProducto.TabIndex = 14;
             // 
             // label5
             // 
@@ -133,15 +157,15 @@
             label5.TabIndex = 13;
             label5.Text = "Tipo de Producto:";
             // 
-            // btnAceptar
+            // btnAgregar
             // 
-            btnAceptar.Location = new Point(614, 96);
-            btnAceptar.Name = "btnAceptar";
-            btnAceptar.Size = new Size(94, 29);
-            btnAceptar.TabIndex = 11;
-            btnAceptar.Text = "Aceptar";
-            btnAceptar.UseVisualStyleBackColor = true;
-            btnAceptar.Click += btnAceptar_Click;
+            btnAgregar.Location = new Point(616, 26);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(94, 29);
+            btnAgregar.TabIndex = 12;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // txtDescripcion
             // 
@@ -191,36 +215,26 @@
             label1.TabIndex = 0;
             label1.Text = "Código:";
             // 
-            // button6
+            // btnLimpiar
             // 
-            button6.Location = new Point(672, 180);
-            button6.Name = "button6";
-            button6.Size = new Size(94, 29);
-            button6.TabIndex = 12;
-            button6.Text = "Cancelar";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // btnNuevo
-            // 
-            btnNuevo.Location = new Point(672, 41);
-            btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new Size(94, 29);
-            btnNuevo.TabIndex = 10;
-            btnNuevo.Text = "Nuevo";
-            btnNuevo.UseVisualStyleBackColor = true;
-            btnNuevo.Click += btnNuevo_Click;
+            btnLimpiar.Location = new Point(627, 80);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(94, 29);
+            btnLimpiar.TabIndex = 10;
+            btnLimpiar.Text = "Nuevo";
+            btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnNuevo_Click;
             // 
             // MantenedorProductos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 468);
+            ClientSize = new Size(800, 427);
             Controls.Add(gpDatos);
-            Controls.Add(btnEditar);
-            Controls.Add(btnDeshabilitar);
-            Controls.Add(button6);
+            Controls.Add(btnRegresar);
+            Controls.Add(btnInhabilitar);
             Controls.Add(dgvProductos);
-            Controls.Add(btnNuevo);
+            Controls.Add(btnLimpiar);
             FormBorderStyle = FormBorderStyle.None;
             Name = "MantenedorProductos";
             Text = "Mantenedor de Productos";
@@ -231,10 +245,15 @@
             ResumeLayout(false);
         }
 
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
+
         #endregion
 
         private DataGridView dataGridView1;
-        private Button button1;
+        private Button btnCancelar;
         private Button button2;
         private Button button3;
         private GroupBox groupBox1;
@@ -248,19 +267,19 @@
         private Label label3;
         private TextBox textBox4;
         private TextBox txtNombre;
-        private Button button6;
-        private Button btnAceptar;
-        private Button btnNuevo;
+        private Button btnAgregar;
+        private Button btnLimpiar;
         private TextBox txtDescripcion;
         private Button button5;
-        private Label label6;
-        private ComboBox cbMarca;
         private ComboBox comboBox2;
-        private ComboBox cbTipoProducto;
+        private ComboBox cmbTipoProducto;
         private Label label5;
         private DataGridView dgvProductos;
-        private Button btnDeshabilitar;
-        private Button btnEditar;
+        private Button btnInhabilitar;
+        private Button btnRegresar;
         private GroupBox gpDatos;
+        private Label label4;
+        private ComboBox cmbMarca;
+        private Button btnActualizar;
     }
 }

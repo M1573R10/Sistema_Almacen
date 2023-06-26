@@ -84,5 +84,21 @@ namespace Sistema_Almacen
         {
             LimpiarDatos();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entMarca Eliminar = new entMarca();
+                Eliminar.CodMarca = int.Parse(txtCodigo.Text.Trim());
+                logMarca.Instancia.EliminarMarca(Eliminar);
+                MessageBox.Show("Se eliminó la información");
+                LimpiarDatos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex);
+            }
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
@@ -107,7 +108,6 @@ namespace CapaDatos
             finally { cmd.Connection.Close(); }
             return eliminar;
         }
-
 
         #endregion
     }

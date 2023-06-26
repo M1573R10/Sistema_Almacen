@@ -1,4 +1,5 @@
 ﻿using CapaEntidad;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace CapaDatos
@@ -106,7 +107,7 @@ namespace CapaDatos
             return eliminar;   
 
         }
-        
-        #endregion
-    }
+
+           #endregion
+        }
 }
