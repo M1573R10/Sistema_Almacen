@@ -64,82 +64,88 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(78, 31);
+            label1.Location = new Point(68, 23);
             label1.Name = "label1";
-            label1.Size = new Size(61, 20);
+            label1.Size = new Size(49, 15);
             label1.TabIndex = 0;
             label1.Text = "Codigo:";
             // 
             // txtCodigo
             // 
-            txtCodigo.Location = new Point(145, 28);
+            txtCodigo.Location = new Point(127, 21);
+            txtCodigo.Margin = new Padding(3, 2, 3, 2);
             txtCodigo.Name = "txtCodigo";
-            txtCodigo.Size = new Size(125, 27);
+            txtCodigo.Size = new Size(110, 23);
             txtCodigo.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(51, 68);
+            label2.Location = new Point(45, 51);
             label2.Name = "label2";
-            label2.Size = new Size(88, 20);
+            label2.Size = new Size(72, 15);
             label2.TabIndex = 2;
             label2.Text = "Nro Factura:";
             // 
             // txtFactura
             // 
-            txtFactura.Location = new Point(145, 61);
+            txtFactura.Location = new Point(127, 46);
+            txtFactura.Margin = new Padding(3, 2, 3, 2);
             txtFactura.Name = "txtFactura";
-            txtFactura.Size = new Size(183, 27);
+            txtFactura.Size = new Size(161, 23);
             txtFactura.TabIndex = 3;
             txtFactura.TextChanged += textBox2_TextChanged;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(98, 101);
+            label3.Location = new Point(86, 76);
             label3.Name = "label3";
-            label3.Size = new Size(40, 20);
+            label3.Size = new Size(33, 15);
             label3.TabIndex = 4;
             label3.Text = "RUC:";
             // 
             // txtRUC
             // 
-            txtRUC.Location = new Point(144, 94);
+            txtRUC.Location = new Point(126, 70);
+            txtRUC.Margin = new Padding(3, 2, 3, 2);
             txtRUC.Name = "txtRUC";
-            txtRUC.Size = new Size(100, 27);
+            txtRUC.Size = new Size(88, 23);
             txtRUC.TabIndex = 5;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(41, 130);
+            label4.Location = new Point(36, 98);
             label4.Name = "label4";
-            label4.Size = new Size(97, 20);
+            label4.Size = new Size(76, 15);
             label4.TabIndex = 6;
             label4.Text = "Razón Social:";
             // 
             // txtRazonSocial
             // 
-            txtRazonSocial.Location = new Point(145, 127);
+            txtRazonSocial.Location = new Point(127, 95);
+            txtRazonSocial.Margin = new Padding(3, 2, 3, 2);
             txtRazonSocial.Name = "txtRazonSocial";
-            txtRazonSocial.Size = new Size(219, 27);
+            txtRazonSocial.Size = new Size(192, 23);
             txtRazonSocial.TabIndex = 7;
             // 
             // button1
             // 
-            button1.Location = new Point(371, 555);
+            button1.Location = new Point(325, 416);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 10;
             button1.Text = "Registrar";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(171, 555);
+            button2.Location = new Point(150, 416);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(82, 22);
             button2.TabIndex = 11;
             button2.Text = "Regresar";
             button2.UseVisualStyleBackColor = true;
@@ -147,18 +153,20 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(271, 555);
+            btnRegistrar.Location = new Point(237, 416);
+            btnRegistrar.Margin = new Padding(3, 2, 3, 2);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(94, 29);
+            btnRegistrar.Size = new Size(82, 22);
             btnRegistrar.TabIndex = 12;
             btnRegistrar.Text = "Agregar";
             btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(27, 21);
+            dateTimePicker1.Location = new Point(24, 16);
+            dateTimePicker1.Margin = new Padding(3, 2, 3, 2);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(289, 27);
+            dateTimePicker1.Size = new Size(253, 23);
             dateTimePicker1.TabIndex = 13;
             // 
             // groupBox1
@@ -171,18 +179,21 @@
             groupBox1.Controls.Add(txtRUC);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(txtRazonSocial);
-            groupBox1.Location = new Point(27, 54);
+            groupBox1.Location = new Point(24, 40);
+            groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(438, 176);
+            groupBox1.Padding = new Padding(3, 2, 3, 2);
+            groupBox1.Size = new Size(383, 132);
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
             groupBox1.Text = "Detalle de Compra";
             // 
             // button4
             // 
-            button4.Location = new Point(499, 66);
+            button4.Location = new Point(437, 50);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(150, 29);
+            button4.Size = new Size(131, 22);
             button4.TabIndex = 15;
             button4.Text = "Consulta Proveedor";
             button4.UseVisualStyleBackColor = true;
@@ -191,11 +202,12 @@
             // dgvRUC
             // 
             dgvRUC.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRUC.Location = new Point(499, 101);
+            dgvRUC.Location = new Point(437, 76);
+            dgvRUC.Margin = new Padding(3, 2, 3, 2);
             dgvRUC.Name = "dgvRUC";
             dgvRUC.RowHeadersWidth = 51;
             dgvRUC.RowTemplate.Height = 29;
-            dgvRUC.Size = new Size(497, 150);
+            dgvRUC.Size = new Size(435, 112);
             dgvRUC.TabIndex = 16;
             dgvRUC.CellContentClick += dgvRUC_CellContentClick;
             // 
@@ -206,18 +218,21 @@
             groupBox2.Controls.Add(txtCantidad);
             groupBox2.Controls.Add(txtNombreProducto);
             groupBox2.Controls.Add(label6);
-            groupBox2.Location = new Point(27, 239);
+            groupBox2.Location = new Point(24, 179);
+            groupBox2.Margin = new Padding(3, 2, 3, 2);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(438, 116);
+            groupBox2.Padding = new Padding(3, 2, 3, 2);
+            groupBox2.Size = new Size(383, 87);
             groupBox2.TabIndex = 17;
             groupBox2.TabStop = false;
             groupBox2.Text = "Producto";
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(338, 53);
+            btnAgregar.Location = new Point(296, 40);
+            btnAgregar.Margin = new Padding(3, 2, 3, 2);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(94, 29);
+            btnAgregar.Size = new Size(82, 22);
             btnAgregar.TabIndex = 4;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
@@ -226,32 +241,34 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(45, 62);
+            label7.Location = new Point(39, 46);
             label7.Name = "label7";
-            label7.Size = new Size(72, 20);
+            label7.Size = new Size(58, 15);
             label7.TabIndex = 3;
             label7.Text = "Cantidad:";
             // 
             // txtCantidad
             // 
-            txtCantidad.Location = new Point(143, 59);
+            txtCantidad.Location = new Point(125, 44);
+            txtCantidad.Margin = new Padding(3, 2, 3, 2);
             txtCantidad.Name = "txtCantidad";
-            txtCantidad.Size = new Size(125, 27);
+            txtCantidad.Size = new Size(110, 23);
             txtCantidad.TabIndex = 2;
             // 
             // txtNombreProducto
             // 
-            txtNombreProducto.Location = new Point(144, 26);
+            txtNombreProducto.Location = new Point(126, 20);
+            txtNombreProducto.Margin = new Padding(3, 2, 3, 2);
             txtNombreProducto.Name = "txtNombreProducto";
-            txtNombreProducto.Size = new Size(125, 27);
+            txtNombreProducto.Size = new Size(110, 23);
             txtNombreProducto.TabIndex = 1;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(50, 29);
+            label6.Location = new Point(44, 22);
             label6.Name = "label6";
-            label6.Size = new Size(67, 20);
+            label6.Size = new Size(54, 15);
             label6.TabIndex = 0;
             label6.Text = "Nombre:";
             // 
@@ -259,11 +276,12 @@
             // 
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { Producto, Cantidad });
-            dataGridView2.Location = new Point(27, 361);
+            dataGridView2.Location = new Point(24, 271);
+            dataGridView2.Margin = new Padding(3, 2, 3, 2);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersWidth = 51;
             dataGridView2.RowTemplate.Height = 29;
-            dataGridView2.Size = new Size(438, 188);
+            dataGridView2.Size = new Size(383, 141);
             dataGridView2.TabIndex = 18;
             // 
             // Producto
@@ -282,9 +300,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(499, 257);
+            button3.Location = new Point(437, 193);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(150, 29);
+            button3.Size = new Size(131, 22);
             button3.TabIndex = 19;
             button3.Text = "Consulta Producto";
             button3.UseVisualStyleBackColor = true;
@@ -293,19 +312,20 @@
             // dgvProducto
             // 
             dgvProducto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProducto.Location = new Point(499, 292);
+            dgvProducto.Location = new Point(437, 219);
+            dgvProducto.Margin = new Padding(3, 2, 3, 2);
             dgvProducto.Name = "dgvProducto";
             dgvProducto.RowHeadersWidth = 51;
             dgvProducto.RowTemplate.Height = 29;
-            dgvProducto.Size = new Size(497, 150);
+            dgvProducto.Size = new Size(435, 112);
             dgvProducto.TabIndex = 20;
             dgvProducto.CellContentClick += dgvProducto_CellContentClick;
             // 
             // RecepcionMercaderia
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1030, 598);
+            ClientSize = new Size(904, 451);
             Controls.Add(dgvProducto);
             Controls.Add(button3);
             Controls.Add(dataGridView2);
@@ -318,6 +338,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "RecepcionMercaderia";
             Text = "Recepcion de Mercaderia";
             groupBox1.ResumeLayout(false);
