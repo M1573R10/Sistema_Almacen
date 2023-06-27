@@ -51,6 +51,7 @@ create table OrdenCompraProducto(
 	CodPro int not null,
 	Cantidad int not null,
 	precio decimal(10,2) not null,
+	PrecioTotal decimal(10,2) not null,
 	foreign key (CodOrdCompra) references OrdenCompra(CodOrdCompra),
 	foreign key (CodPro) references Producto(CodPro)
 )

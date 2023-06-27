@@ -31,7 +31,5 @@ begin
 	delete from TipoProducto where CodTipPro = @CodTipPro
 end
 
-create procedure spListaTipoProductoCombobox
-as
-	Select * from TipoProducto
-go
+
+select * from Producto

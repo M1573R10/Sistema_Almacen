@@ -53,8 +53,6 @@ namespace Sistema_Almacen
         {
             panelFormularios.Controls.Clear(); //limpiamos el panel
             OrdenCompra ordenCompra = new OrdenCompra();
-            ordenCompra.TopLevel = false;
-            panelFormularios.Controls.Add(ordenCompra);
             ordenCompra.Show();
         }
 
