@@ -38,6 +38,9 @@ namespace Sistema_Almacen
             marcaToolStripMenuItem = new ToolStripMenuItem();
             comprasToolStripMenuItem = new ToolStripMenuItem();
             órdenDeCompraToolStripMenuItem = new ToolStripMenuItem();
+            movimientosToolStripMenuItem = new ToolStripMenuItem();
+            recepciónDeProductosToolStripMenuItem = new ToolStripMenuItem();
+            salidaDeProductosToolStripMenuItem = new ToolStripMenuItem();
             panelFormularios = new Panel();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -45,7 +48,7 @@ namespace Sistema_Almacen
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, mantenedoresToolStripMenuItem, comprasToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, mantenedoresToolStripMenuItem, comprasToolStripMenuItem, movimientosToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(6, 3, 0, 3);
@@ -116,6 +119,27 @@ namespace Sistema_Almacen
             órdenDeCompraToolStripMenuItem.Text = "Orden de Compra";
             órdenDeCompraToolStripMenuItem.Click += órdenDeCompraToolStripMenuItem_Click;
             // 
+            // movimientosToolStripMenuItem
+            // 
+            movimientosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { recepciónDeProductosToolStripMenuItem, salidaDeProductosToolStripMenuItem });
+            movimientosToolStripMenuItem.Name = "movimientosToolStripMenuItem";
+            movimientosToolStripMenuItem.Size = new Size(109, 24);
+            movimientosToolStripMenuItem.Text = "Movimientos";
+            // 
+            // recepciónDeProductosToolStripMenuItem
+            // 
+            recepciónDeProductosToolStripMenuItem.Name = "recepciónDeProductosToolStripMenuItem";
+            recepciónDeProductosToolStripMenuItem.Size = new Size(252, 26);
+            recepciónDeProductosToolStripMenuItem.Text = "Recepción de Productos";
+            recepciónDeProductosToolStripMenuItem.Click += recepciónDeProductosToolStripMenuItem_Click;
+            // 
+            // salidaDeProductosToolStripMenuItem
+            // 
+            salidaDeProductosToolStripMenuItem.Name = "salidaDeProductosToolStripMenuItem";
+            salidaDeProductosToolStripMenuItem.Size = new Size(252, 26);
+            salidaDeProductosToolStripMenuItem.Text = "Salida de Productos";
+            salidaDeProductosToolStripMenuItem.Click += salidaDeProductosToolStripMenuItem_Click;
+            // 
             // panelFormularios
             // 
             panelFormularios.Dock = DockStyle.Fill;
@@ -156,5 +180,8 @@ namespace Sistema_Almacen
         private ToolStripMenuItem órdenDeCompraToolStripMenuItem;
         private Panel panelFormularios;
         private ToolStripMenuItem marcaToolStripMenuItem;
+        private ToolStripMenuItem movimientosToolStripMenuItem;
+        private ToolStripMenuItem recepciónDeProductosToolStripMenuItem;
+        private ToolStripMenuItem salidaDeProductosToolStripMenuItem;
     }
 }

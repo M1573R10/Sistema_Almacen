@@ -75,5 +75,17 @@ namespace Sistema_Almacen
             marca.Show();
 
         }
+
+        private void recepciónDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RecepcionMercaderia recepcion = new RecepcionMercaderia();
+            recepcion.Show();
+        }
+
+        private void salidaDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SalidaMercaderia salida = new SalidaMercaderia();
+            salida.Show();
+        }
     }
 }

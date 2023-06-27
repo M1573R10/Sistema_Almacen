@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CapaDatos;
+using CapaLogica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +22,15 @@ namespace Sistema_Almacen
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MostrarProductos();
+        }
+        public void MostrarProductos()
+        {
+            dgvProducto.DataSource = logProducto.Instancia.ListarProducto();
         }
     }
 }
