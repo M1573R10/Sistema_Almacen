@@ -300,7 +300,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(437, 193);
+            button3.Location = new Point(437, 209);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
             button3.Size = new Size(131, 22);
@@ -312,7 +312,7 @@
             // dgvProducto
             // 
             dgvProducto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProducto.Location = new Point(437, 219);
+            dgvProducto.Location = new Point(437, 235);
             dgvProducto.Margin = new Padding(3, 2, 3, 2);
             dgvProducto.Name = "dgvProducto";
             dgvProducto.RowHeadersWidth = 51;
