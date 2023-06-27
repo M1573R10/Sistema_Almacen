@@ -3,7 +3,7 @@ alter PROCEDURE GuardarOrdenCompra
     @Fecha date,
     @Productos varchar(MAX)
 AS
-BEGIN
+BEGIN Transaction
     SET NOCOUNT ON;
 
     DECLARE @CodOrdCompra int;
@@ -32,7 +32,7 @@ BEGIN
     WHERE ocp.CodOrdCompra = @CodOrdCompra;
 
     -- Confirmar la transacción
-    COMMIT;
+    COMMIT Transaction;
 END
 
 select * from OrdenCompra
