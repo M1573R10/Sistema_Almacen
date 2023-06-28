@@ -135,7 +135,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(270, 376);
+            label5.Location = new Point(95, 469);
             label5.Name = "label5";
             label5.Size = new Size(77, 15);
             label5.TabIndex = 10;
@@ -143,7 +143,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(360, 374);
+            textBox5.Location = new Point(185, 467);
             textBox5.Margin = new Padding(3, 2, 3, 2);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(110, 23);
@@ -151,7 +151,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(650, 374);
+            button2.Location = new Point(475, 467);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(82, 22);
@@ -161,7 +161,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(563, 374);
+            button3.Location = new Point(388, 467);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
             button3.Size = new Size(82, 22);
@@ -189,7 +189,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(490, 36);
+            checkBox1.Location = new Point(438, 20);
             checkBox1.Margin = new Padding(3, 2, 3, 2);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(68, 19);
@@ -200,7 +200,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(422, 37);
+            label6.Location = new Point(387, 21);
             label6.Name = "label6";
             label6.Size = new Size(45, 15);
             label6.TabIndex = 19;
@@ -210,12 +210,12 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Item, Producto, Cantidad });
-            dataGridView1.Location = new Point(37, 248);
+            dataGridView1.Location = new Point(37, 336);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(696, 121);
+            dataGridView1.Size = new Size(520, 121);
             dataGridView1.TabIndex = 20;
             // 
             // Item
@@ -241,7 +241,7 @@
             // 
             // btnConsultaRUC
             // 
-            btnConsultaRUC.Location = new Point(785, 34);
+            btnConsultaRUC.Location = new Point(585, 44);
             btnConsultaRUC.Margin = new Padding(3, 2, 3, 2);
             btnConsultaRUC.Name = "btnConsultaRUC";
             btnConsultaRUC.Size = new Size(109, 22);
@@ -253,12 +253,12 @@
             // dgvRUC
             // 
             dgvRUC.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRUC.Location = new Point(785, 60);
+            dgvRUC.Location = new Point(585, 70);
             dgvRUC.Margin = new Padding(3, 2, 3, 2);
             dgvRUC.Name = "dgvRUC";
             dgvRUC.RowHeadersWidth = 51;
             dgvRUC.RowTemplate.Height = 29;
-            dgvRUC.Size = new Size(435, 112);
+            dgvRUC.Size = new Size(358, 164);
             dgvRUC.TabIndex = 22;
             dgvRUC.CellContentClick += dgvRUC_CellContentClick;
             // 
@@ -279,14 +279,14 @@
             groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 2, 3, 2);
-            groupBox1.Size = new Size(696, 128);
+            groupBox1.Size = new Size(520, 128);
             groupBox1.TabIndex = 23;
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del Proveedor";
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(586, 63);
+            btnLimpiar.Location = new Point(410, 61);
             btnLimpiar.Margin = new Padding(3, 2, 3, 2);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(82, 22);
@@ -296,7 +296,7 @@
             // 
             // btnConsultaProductos
             // 
-            btnConsultaProductos.Location = new Point(785, 177);
+            btnConsultaProductos.Location = new Point(585, 254);
             btnConsultaProductos.Margin = new Padding(3, 2, 3, 2);
             btnConsultaProductos.Name = "btnConsultaProductos";
             btnConsultaProductos.Size = new Size(129, 22);
@@ -308,12 +308,12 @@
             // dgvProducto
             // 
             dgvProducto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProducto.Location = new Point(785, 203);
+            dgvProducto.Location = new Point(585, 292);
             dgvProducto.Margin = new Padding(3, 2, 3, 2);
             dgvProducto.Name = "dgvProducto";
             dgvProducto.RowHeadersWidth = 51;
             dgvProducto.RowTemplate.Height = 29;
-            dgvProducto.Size = new Size(435, 112);
+            dgvProducto.Size = new Size(358, 192);
             dgvProducto.TabIndex = 25;
             dgvProducto.CellContentClick += dgvProducto_CellContentClick;
             // 
@@ -330,11 +330,11 @@
             groupBox2.Controls.Add(txtCantidad);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(txtNombreProducto);
-            groupBox2.Location = new Point(37, 166);
+            groupBox2.Location = new Point(37, 177);
             groupBox2.Margin = new Padding(3, 2, 3, 2);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(3, 2, 3, 2);
-            groupBox2.Size = new Size(696, 77);
+            groupBox2.Size = new Size(520, 121);
             groupBox2.TabIndex = 26;
             groupBox2.TabStop = false;
             groupBox2.Text = "Detalle de la Compra";
@@ -358,7 +358,7 @@
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(586, 51);
+            btnAgregar.Location = new Point(301, 84);
             btnAgregar.Margin = new Padding(3, 2, 3, 2);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(82, 22);
@@ -370,7 +370,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(478, 20);
+            label10.Location = new Point(258, 54);
             label10.Name = "label10";
             label10.Size = new Size(69, 15);
             label10.TabIndex = 7;
@@ -378,7 +378,7 @@
             // 
             // txtCostoTotal
             // 
-            txtCostoTotal.Location = new Point(559, 20);
+            txtCostoTotal.Location = new Point(351, 51);
             txtCostoTotal.Margin = new Padding(3, 2, 3, 2);
             txtCostoTotal.Name = "txtCostoTotal";
             txtCostoTotal.Size = new Size(110, 23);
@@ -388,7 +388,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(262, 46);
+            label9.Location = new Point(258, 23);
             label9.Name = "label9";
             label9.Size = new Size(87, 15);
             label9.TabIndex = 5;
@@ -396,7 +396,7 @@
             // 
             // txtPrecioUnitario
             // 
-            txtPrecioUnitario.Location = new Point(362, 44);
+            txtPrecioUnitario.Location = new Point(351, 19);
             txtPrecioUnitario.Margin = new Padding(3, 2, 3, 2);
             txtPrecioUnitario.Name = "txtPrecioUnitario";
             txtPrecioUnitario.Size = new Size(110, 23);
@@ -405,7 +405,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(291, 22);
+            label8.Location = new Point(37, 84);
             label8.Name = "label8";
             label8.Size = new Size(58, 15);
             label8.TabIndex = 3;
@@ -413,7 +413,7 @@
             // 
             // txtCantidad
             // 
-            txtCantidad.Location = new Point(362, 20);
+            txtCantidad.Location = new Point(108, 82);
             txtCantidad.Margin = new Padding(3, 2, 3, 2);
             txtCantidad.Name = "txtCantidad";
             txtCantidad.Size = new Size(110, 23);
@@ -422,7 +422,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(39, 46);
+            label7.Location = new Point(39, 53);
             label7.Name = "label7";
             label7.Size = new Size(59, 15);
             label7.TabIndex = 1;
@@ -430,7 +430,7 @@
             // 
             // txtNombreProducto
             // 
-            txtNombreProducto.Location = new Point(108, 44);
+            txtNombreProducto.Location = new Point(108, 51);
             txtNombreProducto.Margin = new Padding(3, 2, 3, 2);
             txtNombreProducto.Name = "txtNombreProducto";
             txtNombreProducto.Size = new Size(110, 23);
@@ -438,7 +438,7 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(475, 374);
+            btnRegistrar.Location = new Point(300, 467);
             btnRegistrar.Margin = new Padding(3, 2, 3, 2);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new Size(82, 22);
@@ -451,7 +451,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1199, 404);
+            ClientSize = new Size(960, 500);
             Controls.Add(btnRegistrar);
             Controls.Add(groupBox2);
             Controls.Add(dgvProducto);
