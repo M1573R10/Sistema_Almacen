@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Script Base de Datos"
   ],
-  "SelectedNode": "\\Sistema_Almacen.sln",
+  "SelectedNode": "\\Script Base de Datos\\spProveedores.sql",
   "PreviewInSolutionExplorer": false
 }
