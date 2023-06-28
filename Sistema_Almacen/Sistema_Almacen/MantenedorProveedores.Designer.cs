@@ -59,11 +59,12 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 48);
+            dataGridView1.Location = new Point(80, 36);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(606, 188);
+            dataGridView1.Size = new Size(639, 192);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -88,25 +89,29 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(txtRUC);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(12, 253);
+            groupBox1.Location = new Point(23, 247);
+            groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(776, 237);
+            groupBox1.Padding = new Padding(3, 2, 3, 2);
+            groupBox1.Size = new Size(915, 228);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Datos del Proveedor";
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(31, 188);
+            dateTimePicker1.Location = new Point(22, 191);
+            dateTimePicker1.Margin = new Padding(3, 2, 3, 2);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(295, 27);
+            dateTimePicker1.Size = new Size(259, 23);
             dateTimePicker1.TabIndex = 19;
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(676, 140);
+            btnCancelar.Location = new Point(747, 141);
+            btnCancelar.Margin = new Padding(3, 2, 3, 2);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(94, 29);
+            btnCancelar.Size = new Size(82, 22);
             btnCancelar.TabIndex = 18;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -114,9 +119,10 @@
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(676, 89);
+            btnModificar.Location = new Point(747, 84);
+            btnModificar.Margin = new Padding(3, 2, 3, 2);
             btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(94, 29);
+            btnModificar.Size = new Size(82, 22);
             btnModificar.TabIndex = 17;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
@@ -124,9 +130,10 @@
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(676, 39);
+            btnRegistrar.Location = new Point(747, 29);
+            btnRegistrar.Margin = new Padding(3, 2, 3, 2);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(94, 29);
+            btnRegistrar.Size = new Size(82, 22);
             btnRegistrar.TabIndex = 16;
             btnRegistrar.Text = "Agregar";
             btnRegistrar.UseVisualStyleBackColor = true;
@@ -135,9 +142,10 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(498, 164);
+            checkBox1.Location = new Point(444, 191);
+            checkBox1.Margin = new Padding(3, 2, 3, 2);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(102, 24);
+            checkBox1.Size = new Size(81, 19);
             checkBox1.TabIndex = 15;
             checkBox1.Text = "Habilitado";
             checkBox1.UseVisualStyleBackColor = true;
@@ -145,122 +153,129 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(435, 165);
+            label8.Location = new Point(389, 192);
             label8.Name = "label8";
-            label8.Size = new Size(57, 20);
+            label8.Size = new Size(45, 15);
             label8.TabIndex = 14;
             label8.Text = "Estado:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(15, 165);
+            label7.Location = new Point(13, 174);
             label7.Name = "label7";
-            label7.Size = new Size(180, 20);
+            label7.Size = new Size(144, 15);
             label7.TabIndex = 12;
             label7.Text = "Fecha Inición de Relación:";
             // 
             // txtCorreo
             // 
-            txtCorreo.Location = new Point(332, 121);
+            txtCorreo.Location = new Point(290, 123);
+            txtCorreo.Margin = new Padding(3, 2, 3, 2);
             txtCorreo.Name = "txtCorreo";
-            txtCorreo.Size = new Size(268, 27);
+            txtCorreo.Size = new Size(235, 23);
             txtCorreo.TabIndex = 11;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(269, 121);
+            label6.Location = new Point(235, 123);
             label6.Name = "label6";
-            label6.Size = new Size(57, 20);
+            label6.Size = new Size(46, 15);
             label6.TabIndex = 10;
             label6.Text = "Correo:";
             // 
             // txtContacto
             // 
-            txtContacto.Location = new Point(96, 118);
+            txtContacto.Location = new Point(84, 120);
+            txtContacto.Margin = new Padding(3, 2, 3, 2);
             txtContacto.Name = "txtContacto";
-            txtContacto.Size = new Size(139, 27);
+            txtContacto.Size = new Size(122, 23);
             txtContacto.TabIndex = 9;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(18, 125);
+            label5.Location = new Point(16, 126);
             label5.Name = "label5";
-            label5.Size = new Size(72, 20);
+            label5.Size = new Size(59, 15);
             label5.TabIndex = 8;
             label5.Text = "Contacto:";
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(447, 77);
+            txtTelefono.Location = new Point(391, 74);
+            txtTelefono.Margin = new Padding(3, 2, 3, 2);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(153, 27);
+            txtTelefono.Size = new Size(134, 23);
             txtTelefono.TabIndex = 7;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(357, 80);
+            label4.Location = new Point(312, 76);
             label4.Name = "label4";
-            label4.Size = new Size(70, 20);
+            label4.Size = new Size(55, 15);
             label4.TabIndex = 6;
             label4.Text = "Teléfono:";
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new Point(96, 77);
+            txtDireccion.Location = new Point(84, 74);
+            txtDireccion.Margin = new Padding(3, 2, 3, 2);
             txtDireccion.Name = "txtDireccion";
-            txtDireccion.Size = new Size(240, 27);
+            txtDireccion.Size = new Size(210, 23);
             txtDireccion.TabIndex = 5;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(15, 80);
+            label3.Location = new Point(13, 76);
             label3.Name = "label3";
-            label3.Size = new Size(75, 20);
+            label3.Size = new Size(60, 15);
             label3.TabIndex = 4;
             label3.Text = "Dirección:";
             // 
             // txtRazonSocial
             // 
-            txtRazonSocial.Location = new Point(357, 36);
+            txtRazonSocial.Location = new Point(312, 27);
+            txtRazonSocial.Margin = new Padding(3, 2, 3, 2);
             txtRazonSocial.Name = "txtRazonSocial";
-            txtRazonSocial.Size = new Size(243, 27);
+            txtRazonSocial.Size = new Size(213, 23);
             txtRazonSocial.TabIndex = 3;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(239, 39);
+            label2.Location = new Point(209, 29);
             label2.Name = "label2";
-            label2.Size = new Size(97, 20);
+            label2.Size = new Size(76, 15);
             label2.TabIndex = 2;
             label2.Text = "Razón Social:";
             // 
             // txtRUC
             // 
-            txtRUC.Location = new Point(90, 36);
+            txtRUC.Location = new Point(79, 27);
+            txtRUC.Margin = new Padding(3, 2, 3, 2);
             txtRUC.Name = "txtRUC";
-            txtRUC.Size = new Size(125, 27);
+            txtRUC.Size = new Size(110, 23);
             txtRUC.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(31, 39);
+            label1.Location = new Point(27, 29);
             label1.Name = "label1";
-            label1.Size = new Size(40, 20);
+            label1.Size = new Size(33, 15);
             label1.TabIndex = 0;
             label1.Text = "RUC:";
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(688, 97);
+            btnLimpiar.Location = new Point(793, 76);
+            btnLimpiar.Margin = new Padding(3, 2, 3, 2);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(94, 29);
+            btnLimpiar.Size = new Size(82, 22);
             btnLimpiar.TabIndex = 2;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
@@ -268,9 +283,10 @@
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(688, 132);
+            btnRegresar.Location = new Point(793, 128);
+            btnRegresar.Margin = new Padding(3, 2, 3, 2);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(94, 29);
+            btnRegresar.Size = new Size(82, 22);
             btnRegresar.TabIndex = 4;
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = true;
@@ -278,9 +294,10 @@
             // 
             // btnInhabilitar
             // 
-            btnInhabilitar.Location = new Point(688, 167);
+            btnInhabilitar.Location = new Point(793, 188);
+            btnInhabilitar.Margin = new Padding(3, 2, 3, 2);
             btnInhabilitar.Name = "btnInhabilitar";
-            btnInhabilitar.Size = new Size(94, 29);
+            btnInhabilitar.Size = new Size(82, 22);
             btnInhabilitar.TabIndex = 5;
             btnInhabilitar.Text = "Inhabilitar";
             btnInhabilitar.UseVisualStyleBackColor = true;
@@ -288,15 +305,16 @@
             // 
             // MantenedorProveedores
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 502);
+            ClientSize = new Size(960, 500);
             Controls.Add(btnInhabilitar);
             Controls.Add(btnRegresar);
             Controls.Add(btnLimpiar);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "MantenedorProveedores";
             Text = "Mantenedor de Proveedores";
             Load += MantenedorProveedores_Load;

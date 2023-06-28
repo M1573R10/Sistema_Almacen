@@ -183,14 +183,14 @@
             groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 2, 3, 2);
-            groupBox1.Size = new Size(383, 132);
+            groupBox1.Size = new Size(433, 132);
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
             groupBox1.Text = "Detalle de Compra";
             // 
             // button4
             // 
-            button4.Location = new Point(437, 50);
+            button4.Location = new Point(496, 40);
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
             button4.Size = new Size(131, 22);
@@ -202,12 +202,12 @@
             // dgvRUC
             // 
             dgvRUC.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRUC.Location = new Point(437, 76);
+            dgvRUC.Location = new Point(496, 86);
             dgvRUC.Margin = new Padding(3, 2, 3, 2);
             dgvRUC.Name = "dgvRUC";
             dgvRUC.RowHeadersWidth = 51;
             dgvRUC.RowTemplate.Height = 29;
-            dgvRUC.Size = new Size(435, 112);
+            dgvRUC.Size = new Size(435, 146);
             dgvRUC.TabIndex = 16;
             dgvRUC.CellContentClick += dgvRUC_CellContentClick;
             // 
@@ -222,7 +222,7 @@
             groupBox2.Margin = new Padding(3, 2, 3, 2);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(3, 2, 3, 2);
-            groupBox2.Size = new Size(383, 87);
+            groupBox2.Size = new Size(433, 87);
             groupBox2.TabIndex = 17;
             groupBox2.TabStop = false;
             groupBox2.Text = "Producto";
@@ -281,7 +281,7 @@
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersWidth = 51;
             dataGridView2.RowTemplate.Height = 29;
-            dataGridView2.Size = new Size(383, 141);
+            dataGridView2.Size = new Size(433, 141);
             dataGridView2.TabIndex = 18;
             // 
             // Producto
@@ -300,7 +300,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(437, 209);
+            button3.Location = new Point(496, 244);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
             button3.Size = new Size(131, 22);
@@ -312,12 +312,12 @@
             // dgvProducto
             // 
             dgvProducto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProducto.Location = new Point(437, 235);
+            dgvProducto.Location = new Point(496, 296);
             dgvProducto.Margin = new Padding(3, 2, 3, 2);
             dgvProducto.Name = "dgvProducto";
             dgvProducto.RowHeadersWidth = 51;
             dgvProducto.RowTemplate.Height = 29;
-            dgvProducto.Size = new Size(435, 112);
+            dgvProducto.Size = new Size(435, 167);
             dgvProducto.TabIndex = 20;
             dgvProducto.CellContentClick += dgvProducto_CellContentClick;
             // 
@@ -325,7 +325,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(904, 451);
+            ClientSize = new Size(960, 500);
             Controls.Add(dgvProducto);
             Controls.Add(button3);
             Controls.Add(dataGridView2);
@@ -337,7 +337,7 @@
             Controls.Add(btnRegistrar);
             Controls.Add(button2);
             Controls.Add(button1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             Name = "RecepcionMercaderia";
             Text = "Recepcion de Mercaderia";

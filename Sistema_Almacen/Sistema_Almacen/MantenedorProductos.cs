@@ -132,6 +132,6 @@ namespace Sistema_Almacen
         {
             dgvProductos.DataSource = logProducto.Instancia.ListarProducto();
         }
-        
+
     }
 }

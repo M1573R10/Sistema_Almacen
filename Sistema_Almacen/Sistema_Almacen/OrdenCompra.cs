@@ -125,34 +125,34 @@ namespace Sistema_Almacen
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-           // try
+            // try
             //{
-                // Obtener datos del formulario
-                string ruc = txtRUC.Text;
-                DateTime fecha = dateTimePicker1.Value;
+            // Obtener datos del formulario
+            string ruc = txtRUC.Text;
+            DateTime fecha = dateTimePicker1.Value;
 
-                // Obtener productos del DataGridView
-                StringBuilder productosBuilder = new StringBuilder();
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
+            // Obtener productos del DataGridView
+            StringBuilder productosBuilder = new StringBuilder();
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
                 int codPro = Convert.ToInt32(row.Cells["Item"].Value);
                 int cantidad = Convert.ToInt32(row.Cells["Producto"].Value);
-                    decimal precio = Convert.ToDecimal(row.Cells["Cantidad"].Value);
-                    string producto = $"{codPro},{cantidad},{precio}";
-                    productosBuilder.Append(producto);
-                    productosBuilder.Append("|");
-                }
-                string productos = productosBuilder.ToString().TrimEnd('|');
+                decimal precio = Convert.ToDecimal(row.Cells["Cantidad"].Value);
+                string producto = $"{codPro},{cantidad},{precio}";
+                productosBuilder.Append(producto);
+                productosBuilder.Append("|");
+            }
+            string productos = productosBuilder.ToString().TrimEnd('|');
 
-                // Guardar la orden de compra
-                logOrdenCompra1 negocio = new logOrdenCompra1();
-                negocio.GuardarOrdenCompra(ruc, fecha, productos);
-                MessageBox.Show("Orden de Compra registrada correctamente");
+            // Guardar la orden de compra
+            logOrdenCompra1 negocio = new logOrdenCompra1();
+            negocio.GuardarOrdenCompra(ruc, fecha, productos);
+            MessageBox.Show("Orden de Compra registrada correctamente");
             //}
             //catch (Exception ex)
             //{
-              //  MessageBox.Show("Error al guardar la orden de compra: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-           // }
+            //  MessageBox.Show("Error al guardar la orden de compra: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            // }
 
 
 

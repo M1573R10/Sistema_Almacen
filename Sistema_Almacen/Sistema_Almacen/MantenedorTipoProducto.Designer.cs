@@ -46,56 +46,60 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(52, 46);
+            label1.Location = new Point(563, 83);
             label1.Name = "label1";
-            label1.Size = new Size(61, 20);
+            label1.Size = new Size(49, 15);
             label1.TabIndex = 0;
             label1.Text = "Código:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(46, 79);
+            label2.Location = new Point(563, 156);
             label2.Name = "label2";
-            label2.Size = new Size(67, 20);
+            label2.Size = new Size(54, 15);
             label2.TabIndex = 1;
             label2.Text = "Nombre:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(23, 112);
+            label3.Location = new Point(563, 219);
             label3.Name = "label3";
-            label3.Size = new Size(90, 20);
+            label3.Size = new Size(72, 15);
             label3.TabIndex = 2;
             label3.Text = "Descripción:";
             // 
             // txtCodigo
             // 
-            txtCodigo.Location = new Point(131, 43);
+            txtCodigo.Location = new Point(632, 81);
+            txtCodigo.Margin = new Padding(3, 2, 3, 2);
             txtCodigo.Name = "txtCodigo";
-            txtCodigo.Size = new Size(125, 27);
+            txtCodigo.Size = new Size(110, 23);
             txtCodigo.TabIndex = 3;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(131, 76);
+            txtNombre.Location = new Point(632, 148);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(181, 27);
+            txtNombre.Size = new Size(159, 23);
             txtNombre.TabIndex = 4;
             // 
             // txtDescripcion
             // 
-            txtDescripcion.Location = new Point(131, 109);
+            txtDescripcion.Location = new Point(653, 211);
+            txtDescripcion.Margin = new Padding(3, 2, 3, 2);
             txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(315, 27);
+            txtDescripcion.Size = new Size(276, 23);
             txtDescripcion.TabIndex = 5;
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(23, 157);
+            btnRegistrar.Location = new Point(584, 273);
+            btnRegistrar.Margin = new Padding(3, 2, 3, 2);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(94, 29);
+            btnRegistrar.Size = new Size(82, 22);
             btnRegistrar.TabIndex = 6;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
@@ -103,9 +107,10 @@
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(131, 157);
+            btnModificar.Location = new Point(584, 312);
+            btnModificar.Margin = new Padding(3, 2, 3, 2);
             btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(94, 29);
+            btnModificar.Size = new Size(82, 22);
             btnModificar.TabIndex = 7;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
@@ -113,9 +118,10 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(243, 157);
+            btnEliminar.Location = new Point(584, 347);
+            btnEliminar.Margin = new Padding(3, 2, 3, 2);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
+            btnEliminar.Size = new Size(82, 22);
             btnEliminar.TabIndex = 8;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
@@ -123,9 +129,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(352, 157);
+            button4.Location = new Point(584, 383);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(94, 29);
+            button4.Size = new Size(82, 22);
             button4.TabIndex = 9;
             button4.Text = "Limpiar";
             button4.UseVisualStyleBackColor = true;
@@ -134,19 +141,21 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(23, 213);
+            dataGridView1.Location = new Point(52, 35);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(565, 216);
+            dataGridView1.Size = new Size(445, 424);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // button5
             // 
-            button5.Location = new Point(352, 435);
+            button5.Location = new Point(765, 347);
+            button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(94, 29);
+            button5.Size = new Size(82, 22);
             button5.TabIndex = 11;
             button5.Text = "Regresar";
             button5.UseVisualStyleBackColor = true;
@@ -154,9 +163,9 @@
             // 
             // MantenedorTipoProducto
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(600, 489);
+            ClientSize = new Size(960, 500);
             Controls.Add(button5);
             Controls.Add(dataGridView1);
             Controls.Add(button4);
@@ -170,6 +179,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "MantenedorTipoProducto";
             Text = "Mantenedor Tipo Producto";
             Load += MantenedorTipoProducto_Load;
