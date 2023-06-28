@@ -53,18 +53,11 @@ namespace Sistema_Almacen
         {
             panelFormularios.Controls.Clear(); //limpiamos el panel
             OrdenCompra ordenCompra = new OrdenCompra();
+            ordenCompra.TopLevel = false;
+            panelFormularios.Controls.Add(ordenCompra);
             ordenCompra.Show();
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelFormularios_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -78,13 +71,19 @@ namespace Sistema_Almacen
 
         private void recepciónDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            panelFormularios.Controls.Clear();
             RecepcionMercaderia recepcion = new RecepcionMercaderia();
+            recepcion.TopLevel = false;
+            panelFormularios.Controls.Add(recepcion);
             recepcion.Show();
         }
 
         private void salidaDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            panelFormularios.Controls.Clear();
             SalidaMercaderia salida = new SalidaMercaderia();
+            salida.TopLevel = false;
+            panelFormularios.Controls.Add(salida);
             salida.Show();
         }
     }
